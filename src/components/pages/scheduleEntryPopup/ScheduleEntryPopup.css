@@ -1,0 +1,127 @@
+.schedule-entry-popup .page_header{
+    height: 100rem;
+    padding: 0 40rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1rem solid #cccccc;
+    width: 100%;
+}
+.schedule-entry-popup .page_header .cancel{
+    font-size: 26rem;
+    color: #4392e3;
+}
+.schedule-entry-popup .page_header .cancel img{
+    width: 34rem;
+    height: 34rem;
+}
+.schedule-entry-popup .page_header .title{
+    font-size: 36rem;
+    text-align: center;
+}
+
+.schedule-entry-popup .container-fluid{
+    padding-right: 40rem;
+    padding-left: 40rem;
+}
+.schedule-entry-popup .data_img{
+    padding: 40rem 0;
+    border-bottom: 1rem solid #d3d3d3;
+}
+.schedule-entry-popup .data_img .left{
+    border-right: 4rem solid #48acf2;
+}
+.schedule-entry-popup .data_img .left img{
+    height: 180rem;
+    width: 180rem;
+}
+.schedule-entry-popup .data_img .right{
+    padding-left: 33rem;
+}
+.schedule-entry-popup .data_img .right .data{
+    padding: 0;
+    border-bottom: none;
+}
+.schedule-entry-popup .data_img .data .date{
+    font-size: 40rem;
+}
+.schedule-entry-popup .data_img .data .date span{
+    font-size: 28rem;
+}
+.schedule-entry-popup .data_img .data .date .money{
+    color: #999999;
+}
+.schedule-entry-popup .data_img .data .hours{
+    font-size: 32rem;
+    color: #999999;
+}
+.schedule-entry-popup .data_img .data .hours span{
+    font-size: 24rem;
+    color: #e14a56;
+}
+.schedule-entry-popup .data_img .data .content{
+    font-size: 30rem;
+    color: #555555;
+}
+
+.schedule-entry-popup .content{
+
+}
+
+.schedule-entry-popup .content .cap{
+    background-color: #fcfcfc;
+    font-size: 30rem;
+    color: #999999;
+    padding: 23rem 40rem 22rem 40rem;
+    border-bottom: 1rem solid #f3f3f3;
+}
+
+.schedule-entry-popup .content .cap_item{
+    padding: 54rem 0 19rem 0;
+}
+
+.schedule-entry-popup .content .cap_item .cap_item_info{
+    display: flex;
+    align-items: center;
+}
+.schedule-entry-popup .content .cap_item .cap_item_info .ic_calander{
+    width: 47rem;
+    height: 47rem;
+}
+.schedule-entry-popup .content .cap_item .cap_item_info .image{
+    width: 96rem;
+    height: 96rem;
+}
+
+.schedule-entry-popup .content .cap_item .cap_item_info .title{
+    color: #555555;
+    font-size: 30rem;
+}
+
+.schedule-entry-popup .page-footer{
+    padding: 12rem 28rem 40rem 28rem;
+    border-top: 1rem solid #cccccc;
+    display: flex;
+}
+.schedule-entry-popup .footer_plus{
+    width: 94rem;
+    height: 94rem;
+    background-image: linear-gradient(to right, #28cbd5 , #5debdc);
+    border-radius: 50%;
+    position: relative;
+}
+.schedule-entry-popup .footer_plus img{
+    width: 32rem;
+    height: 32rem;
+    position: absolute;
+    top: 30rem;
+    left: 30rem;
+}
+.schedule-entry-popup .page-footer .content{
+    display: flex;
+    align-items: center;
+    font-size: 30rem;
+    padding-left: 45rem;
+}
+.calendar-detail .place img{
+    width: 100%;
+}

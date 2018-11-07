@@ -1,0 +1,39 @@
+.rec-user {
+  padding-left: 40rem;
+}
+
+.rec-user .cap-rec-user {
+  height: 100rem;
+  display: flex;
+  align-items: center;
+  font-size: 30rem;
+  padding-right: 20rem;
+  color: #999999;
+}
+
+.rec-user .cap-rec-user div:first-child {
+  flex: 1;
+}
+
+.card-user {
+  height: 290rem;
+  border: 1rem solid #d3d3d3;
+  text-align: center;
+  padding-top: 20rem;
+  margin-right: 30rem;
+}
+
+.card-user .name {
+  font-size: 30rem;
+  color: #444444;
+}
+
+.card-user .nick-name {
+  font-size: 24rem;
+  color: #bbbbbb;
+}
+
+.rec-user .user-avatar {
+  width: 152rem;
+  height: 150rem;
+}

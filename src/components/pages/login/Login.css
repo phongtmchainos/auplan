@@ -1,0 +1,97 @@
+#login {
+    padding-top: 32rem;
+    background-color: #ffffff;
+}
+
+#login .cancel button   {
+    text-align: left;
+    background-color: #fff;
+    padding-top: 0rem;
+}
+
+#login .logo{
+    padding-top: 80rem;
+    text-align: center;
+}
+
+#login .field{
+    padding-top: 70rem;
+}
+
+#login .form-control{
+    height: 100rem;
+    border: none;
+    border-bottom: 1rem solid #e8e7e6;
+    box-shadow: none;
+}
+
+#login .form-control::placeholder {
+    font-size: 32rem;
+    color: #cccccc;
+}
+
+#login .form-control:focus {
+    border-bottom: 1rem solid #00b1c3;
+    box-shadow: none;
+}
+
+#login .help{
+    font-size: 26rem;
+    color: #4392e3;
+    padding-top: 5rem;
+}
+
+#login .help span{
+    padding-right: 15rem;
+}
+
+#login button{
+    font-size: 34rem;
+    color: #fff;
+    height: 94rem;
+    border: none;
+    border-radius: 100rem;
+    width: 100%;
+}
+
+#login .btn-m{
+    text-align: center;
+    padding: 100rem 80rem 0 80rem;
+}
+
+#login .btn-m button{
+    background-image: linear-gradient(to right, #28cbd5 , #5ceadc);
+}
+
+#login .fb{
+    text-align: center;
+    padding:50rem 80rem 0 80rem;
+}
+
+#login .fb button{
+    background-image: linear-gradient(to right, #4467b1 , #7298e8);
+}
+
+#login .fb button span{
+    padding-right: 15rem;
+}
+
+#login .cancel-ic {
+    width: 127rem;
+    height: 23rem;
+}
+
+#login .logo-ic {
+    width: 168rem;
+    height: 232rem;
+}
+
+#login .help-ic {
+    width: 48rem;
+    height: 48rem;
+}
+
+#login .facebook-ic {
+    width: 50rem;
+    height: 50rem;
+}

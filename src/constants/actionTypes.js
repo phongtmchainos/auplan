@@ -1,0 +1,1 @@
+export const FETCH_TOP_IMAGE = 'FETCH_TOP_IMAGE';

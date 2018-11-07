@@ -1,0 +1,152 @@
+.home .main-slide {
+  height: 500rem;
+  border-bottom: 1rem solid #d3d3d3;
+}
+
+.home .slide {
+  height: 500rem;
+}
+
+.home .slide img {
+  width: 100vw;
+  height: 410rem;
+}
+
+.home .calendarArea {
+  border-bottom: 1rem solid #d3d3d3;
+  height: 465rem;
+  padding-top: 30rem;
+}
+
+.home .calendarArea .cap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 40rem;
+  height: 48rem;
+  font-size: 32rem;
+  color: #666666;
+}
+
+.home .calendarArea .cap img {
+  margin-right: 20rem;
+}
+
+.home .calendarArea .search-input {
+  flex-direction: row;
+  height: 67rem;
+  background-color: #eaeaea;
+  border-radius: 30rem;
+  margin: 0 40rem;
+  padding: 0 30rem;
+  display: flex;
+  align-items: center;
+}
+
+.home .calendarArea .search-input input {
+  border: 0;
+  background-color: #eaeaea;
+  width: 100%;
+  font-size: 28rem;
+  padding: 0 30rem;
+}
+
+.home .calendarArea .calendar {
+  height: 160rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rem;
+}
+
+.home .calendarArea .location {
+  display: flex;
+  flex-direction: row;
+  height: 165rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .calendarArea .location span {
+  margin-left: 20rem;
+  color: #4392e3;
+  font-size: 26rem;
+}
+
+.home .recommended {
+  border-bottom: 1rem solid #d3d3d3;
+  padding-bottom: 60rem;
+}
+
+.home .recommended-close {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.home .recommended .cap {
+  height: 110rem;
+  display: flex;
+  align-items: center;
+  padding: 0 40rem;
+  border-bottom: 1rem solid #d3d3d3;
+}
+
+.home .recommended .cap div {
+  font-size: 32rem;
+  color: #666666;
+  margin-left: 20rem;
+  flex: 1;
+}
+
+.home .cap .search-ic {
+  width: 48rem;
+  height: 48rem;
+}
+
+.home .search-input .search-ic {
+  width: 32rem;
+  height: 32rem;
+}
+
+.home .search-input .delete-ic {
+  width: 32rem;
+  height: 32rem;
+}
+
+.home .location .location-ic {
+  width: 47rem;
+  height: 48rem;
+}
+
+.home .recommended .recommended-ic {
+  width: 41rem;
+  height: 48rem;
+}
+.home .recommended .close-ic {
+  width: 32rem;
+  height: 4rem;
+}
+
+.home .recommended .fan-ic {
+  width: 46rem;
+  height: 47rem;
+}
+
+.home .recommended .open-ic {
+  width: 32rem;
+  height: 32rem;
+}
+
+.home .recommended .alert-ic {
+  width: 46rem;
+  height: 48rem;
+}
+
+.home .slider-control-bottomcenter ul {
+  top: 0 !important;
+}
+
+.arrow-right-ic {
+  width: 24rem;
+  height: 28rem;
+}

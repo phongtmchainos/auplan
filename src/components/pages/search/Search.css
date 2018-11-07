@@ -1,0 +1,394 @@
+#search-page .search-header{
+    height: 100rem;
+    padding: 0 25rem;
+    display: flex;
+    align-items: center;
+}
+#search-page .search-header .cancel{
+    width: 200rem;
+    font-size: 26rem;
+    color: #4392e3;
+}
+
+#search-page .container-fluid{
+    padding-right: 40rem;
+    padding-left: 40rem;
+}
+
+#search-page .from-to .control-label{
+    padding-right: 40rem;
+    font-size: 26rem;
+    color: #444444;
+    padding-top: 15rem;
+    font-weight: 300;
+    padding-left: 15rem;
+}
+#search-page .from-to .text-feild{
+    padding-right: 0;
+}
+#search-page .from-to .form-control-feedback{
+    right: 15rem;
+}
+#search-page .form-control-start {
+    position: absolute;
+    left: 60rem;
+    z-index: 2;
+    display: block;
+    width: 34rem;
+    height: 34rem;
+    line-height: 34rem;
+    text-align: center;
+    pointer-events: none;
+    top: 15rem;
+}
+#search-page .from-to .form-control-start{
+    top: 8rem;
+}
+#search-page .from-to .form-control-start img{
+    width: 40rem;
+}
+#search-page .form-control-feedback{
+    right: 60rem;
+    width: 34rem;
+    top: 15rem;
+    height: 34rem;
+    line-height: 34rem;
+}
+#search-page .form-control{
+    height: 65rem;
+    border-radius: 50rem;
+    padding: 0 100rem;
+    font-size: 28rem;
+    color:#444444;
+    background-color: #eaeaea;
+}
+#search-page .form-group{
+    font-size: 24rem;
+    color:#444444
+}
+
+#search-page .tab{
+    padding-top: 60rem;
+}
+
+#search-page .nav-tabs>li>a{
+    font-size: 25rem;
+    color: #999999;
+}
+#search-page .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #444444;
+    border: none;
+    border-bottom: 4rem solid #28cbd5;
+}
+#search-page .nav-tabs>li {
+    width: 25%;
+    text-align: center;
+}
+
+#search-page .nav-tabs>li a {
+    padding-left: 0;
+    padding-right: 0;
+}
+#search-page .search_account{
+
+}
+#search-page .search_account .card_user{
+    padding: 20rem 0 20rem 0;
+}
+#search-page .search_account .card_user .user_icon img{
+    width: 100rem;
+}
+#search-page .search_account .card_user .name{
+    font-size: 30rem;
+    color:#444444;
+    padding-top: 15rem;
+}
+#search-page .search_account .card_user .name p{
+    font-size: 10rem;
+    color: #bbbbbb;
+}
+#search-page .search_account .card_user .name p span{
+    padding-right: 12rem;
+}
+#search-page .search_account .card_user .name p span img{
+    width: 85rem;
+}
+#search-page .search_account .card_user .inner{
+    display: flex;
+    float: right;
+    font-size: 28rem;
+    color:#999999;
+}
+#search-page .search_account .card_user .inner .fan{
+    padding-right:25rem;
+    display: flex;
+    align-items: center;
+}
+#search-page .search_account .card_user .inner img{
+    padding-right:6rem;
+    width: 45rem;
+}
+/* ------------------------------------------------------- */
+#calendar{}
+#calendar .calander_item{
+    padding-top: 55rem;
+    padding-bottom: 30rem;
+}
+#calendar .calander_item .calander_content{
+    font-size: 30rem;
+    color: #555555;
+    padding-left: 60rem;
+}
+#calendar .calander_item .calander_content .name .row{
+    padding-top: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+#calendar .calander_item .calander_content .name .private {
+    text-align: right;
+}
+
+#calendar .calander_item .calander_content .name .private img{
+    padding-right: 12rem;
+}
+
+#calendar .calander_item .calander_content .name .fullname{
+    font-size: 26rem;
+    color: #444444;
+}
+
+#calendar .calander_item .calander_content .name .username{
+    font-size: 22rem;
+    color: #bbbbbb;
+}
+
+
+#calendar .calander_item .calander_content .img{
+    padding-top: 20rem;
+}
+#calendar .calander_item .calander_content .img img{
+    width: 100%;
+}
+
+#calendar .calander_item .calander_content .prince_icon{
+    padding-top: 30rem;
+    font-size: 32rem;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 30rem;
+}
+#calendar .calander_item .calander_content .prince_icon .img_follow img{
+    width: 45rem;
+}
+#calendar .calander_item .calander_content .prince_icon .prince{
+    color: #e14a56;
+}
+#calendar .calander_item .calander_content .prince_icon > .row{
+    display: flex;
+    align-items: center;
+}
+
+#calendar .calander_item .calander_content .schedule{
+    padding-top: 30rem;
+}
+
+#calendar .calander_item .calander_content .schedule .content{
+    font-size:  30rem;
+    color: #555555;
+    padding-left: 40rem;
+    margin-top: 20rem;
+    border-left: 4rem solid #28cbd5;
+}
+#calendar .calander_item .calander_content .schedule .content .date{
+    font-size: 44rem;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    padding-top: 20rem;
+}
+#calendar .calander_item .calander_content .schedule .content .date> img {
+    width: 18rem;
+}
+#calendar .calander_item .calander_content .schedule .content .date .from{
+    padding-right: 15rem;
+}
+#calendar .calander_item .calander_content .schedule .content .date .to{
+    padding-left: 20rem;
+}
+#calendar .calander_item .calander_content .schedule .content .date span{
+    font-size: 30rem;
+}
+#calendar .blue{
+    color: #5e95d4;
+}
+#calendar .red{
+    color: #e14a56;
+}
+
+#calendar .calander_item .calander_content .schedule .content .house{
+    font-size: 32rem;
+    color: #999999;
+    padding-top: 20rem;
+}
+#calendar .calander_item .calander_content .schedule .content .house span{
+    font-size: 24rem;
+}
+
+
+/* ------------------------------------------------------- */
+#schedule{}
+#schedule .schedule_item{
+    padding-top: 55rem;
+    padding-bottom: 30rem;
+}
+#schedule .schedule_item .left{
+    color: #333333;
+    font-size: 52rem;
+    text-align: center;
+}
+#schedule .schedule_item .gray{
+    font-size: 24rem;
+}
+#schedule .schedule_item .schedule_content{
+    font-size: 30rem;
+    color: #555555;
+}
+#schedule .schedule_item .schedule_content .name{
+    padding-top: 22rem;
+}
+#schedule .schedule_item .schedule_content .name .row{
+    display: flex;
+    align-items: center;
+}
+#schedule .schedule_item .schedule_content .name .private img{
+    padding-right: 12rem;
+}
+#schedule .schedule_item .schedule_content .name .private{
+    text-align: right;
+}
+#schedule .schedule_item .schedule_content .name .fullname{
+    font-size: 26rem;
+    color: #444444;
+}
+
+#schedule .schedule_item .schedule_content .name .username{
+    font-size: 22rem;
+    color: #bbbbbb;
+}
+
+
+#schedule .schedule_item .schedule_content .img{
+    padding-top: 20rem;
+}
+#schedule .schedule_item .schedule_content .img>img{
+    width: 100%;
+}
+#schedule .schedule_item .schedule_content .prince_icon{
+    font-size: 32rem;
+    padding-bottom: 25rem;
+    border-bottom: 1rem solid #e9e9e9;
+}
+#schedule .schedule_item .schedule_content .prince_icon .prince{
+    color: #e14a56;
+}
+#schedule .schedule_item .schedule_content .prince_icon > .row{
+    padding-top: 20rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+#schedule .schedule_item .schedule_content .schedule .title{
+    font-size:  26rem;
+    color: #999999;
+}
+#schedule .schedule_item .schedule_content .schedule .content{
+    font-size:  30rem;
+    color: #555555;
+    padding-left: 40rem;
+    margin-top: 20rem;
+    border-left: 4rem solid #28cbd5;
+}
+#schedule .schedule_item .schedule_content .schedule .content .date{
+    font-size: 44rem;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    padding-top: 20rem;
+}
+#schedule .schedule_item .schedule_content .schedule .content .date .from{
+    padding-right: 15rem;
+}
+#schedule .schedule_item .schedule_content .schedule .content .date .to{
+    padding-left: 20rem;
+}
+#schedule .schedule_item .schedule_content .schedule .content .date span{
+    font-size: 30rem;
+}
+#schedule .blue{
+    color: #5e95d4;
+}
+#schedule .red{
+    color: #e14a56;
+}
+#schedule .gray{
+    color: #999999;
+}
+
+#schedule .schedule_item .schedule_content .schedule .content .house{
+    font-size: 32rem;
+    color: #999999;
+    padding-top: 20rem;
+}
+#schedule .schedule_item .schedule_content .schedule .content .house span{
+    font-size: 24rem;
+}
+
+#search-page .delete-ic {
+    width: 32rem;
+    height: 32rem;
+}
+#search-page .calendar-ic {
+    display: flex;
+    align-items: center;
+}
+#search-page .calendar-ic  img{
+    width: 46rem;
+    height: 47rem;
+    margin-right: 14rem;
+}
+#calendar .calander_item .calendar-ic  .title{
+    font-size:  26rem;
+    color: #999999;
+}
+
+#search-page .dropdown-ic {
+    width: 22rem;
+    height: 18rem;
+}
+
+#search-page .user-ic {
+    width: 71rem;
+    height: 71rem;
+}
+
+#search-page .public-ic {
+    width: 49rem;
+    height: 37rem;
+}
+
+#search-page .download-ic {
+    width: 46rem;
+    height: 46rem;
+}
+
+#search-page .like-ic {
+    width: 46rem;
+    height: 47rem;
+}
+
+#search-page .share-ic {
+    width: 47rem;
+    height: 47rem;
+}

@@ -1,0 +1,87 @@
+.footer *{
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  height: 116rem;
+  display: flex;
+  align-items: center;
+  border-top: 1rem solid #d3d3d3;
+  padding: 0 60rem;
+}
+
+.footer .btn {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+
+.footer .btn:first-child {
+  text-align: left;
+}
+
+.footer .btn:last-child {
+  text-align: right;
+}
+
+.footer .center-btn {
+  justify-content: center;
+  display: flex;
+}
+
+.footer .btn .calendar {
+  background: url("../../../icons/btn.png") no-repeat;
+  background-size: 100rem 100rem;
+  height: 100rem;
+  width: 100rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .notification {
+  position: relative;
+}
+
+.footer .notification .barge {
+  background-color: #e60000;
+  color: #ffffff;
+  font-size: 22rem;
+  font-weight: bold;
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 80rem;
+  bottom: 30rem;
+}
+
+.footer .logo-ic {
+  width: 69rem;
+  height: 47rem;
+}
+
+.footer .search-ic {
+  width: 48rem;
+  height: 48rem;
+}
+
+.footer .calendar-ic {
+  width: 46rem;
+  height: 47rem;
+}
+
+.footer .alert-ic {
+  width: 46rem;
+  height: 48rem;
+}
+
+.footer .user-ic {
+  width: 42rem;
+  height: 47rem;
+}

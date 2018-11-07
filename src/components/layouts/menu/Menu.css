@@ -1,0 +1,77 @@
+.menu-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+.menu-header{
+    height: 100rem;
+    padding: 0 40rem;
+    display: flex;
+    align-items: center;
+}
+.menu-header .cancel{
+    font-size: 26rem;
+    color: #4392e3;
+}
+.menu-header .title{
+    font-size: 36rem;
+    text-align: center;
+}
+
+
+.container-fluid{
+    padding-right: 40rem;
+    padding-left: 40rem;
+}
+.bnt-s{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 60rem;
+    border-bottom: 1rem solid #d3d3d3;
+}
+.bnt-s button{
+    font-size: 30rem;
+    color: #f6fbfb;
+    background-image: linear-gradient(to right, #28cbd5 , #5debdc);
+    height: 72rem;
+    width: 380rem;
+    border: none;
+    box-shadow: none;
+    border-radius: 50rem;
+}
+.account{
+    padding: 40rem 0 45rem 0;
+    border-bottom: 1rem solid #d3d3d3;
+}
+.menu{
+    font-size: 30rem;
+    color: #555555;
+    padding: 15rem 0;
+    height: 72rem;
+}
+.menu span{
+    float: right;
+}
+.support{
+    padding: 45rem 0 45rem 0;
+    border-bottom: 1rem solid #d3d3d3;
+}
+.data{
+    padding: 35rem 0 45rem 0;
+    border-bottom: 1rem solid #d3d3d3;
+}
+.logout{
+    padding: 45rem 0 45rem 0;
+    border-bottom: 1rem solid #d3d3d3;
+}
+
+.menu-container .left-arrow-ic {
+    width: 19rem;
+    height: 36rem;
+}
+
+.menu-container .right-arrow-ic {
+    width: 14rem;
+    height: 26rem;
+}

@@ -1,0 +1,27 @@
+.header {
+  height: 100rem;
+  align-items: center;
+  display: flex;
+  padding: 0 40rem;
+  border-bottom: 1rem solid #008bc6;
+}
+
+.header .header-logo {
+  width: 75rem;
+  height: 51rem;
+}
+
+.header .txtHeaderArea {
+  flex: 1;
+  text-align: center;
+}
+
+.header .txtHeaderArea img {
+  width: 161rem;
+  height: 45rem;
+}
+
+.header .menu-icon {
+  width: 43rem;
+  height: 36rem;
+}

@@ -1,0 +1,54 @@
+html {
+  font-size: 0.130208333vw;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.menu {
+  background: #ffffff;
+  flex: 1;
+  height: 100vh;
+}
+
+[class*="col-"] {
+  padding-left: 15rem;
+  padding-right: 15rem;
+  min-height: 1rem;
+}
+.d_flex_center{
+  display: flex;
+  align-items: center;
+}
+/* form */
+.form-control-feedback{
+  width: auto;
+  height: auto;
+  line-height: 34rem;
+}
+.form-horizontal .form-group {
+  margin-right: -15rem;
+  margin-left: -15rem;
+}
+.form-group {
+  margin-bottom: 15rem;
+}
+label {
+  margin-bottom: 5rem;
+}
+.row {
+  margin-right: -15rem;
+  margin-left: -15rem;
+}
+/* -------------------------------- */

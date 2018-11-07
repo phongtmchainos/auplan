@@ -1,0 +1,40 @@
+.week-days {
+  width: 100%;
+  padding-right: 20rem;
+}
+
+.week-days table {
+  width: 100%;
+  font-size: 24rem;
+}
+
+.week-days table thead {
+  font-size: 24rem;
+  color: #999999;
+  text-align: center;
+}
+
+.week-days table tbody {
+  font-size: 38rem;
+  text-align: center;
+}
+
+.week-days table tr .today {
+  width: 50rem;
+  height: 50rem;
+  line-height: 50rem;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #00b1c3;
+  color: #ffffff;
+}
+
+.Sa {
+  color: #00b1c3;
+}
+
+.Su {
+  color: #e14a56;
+}

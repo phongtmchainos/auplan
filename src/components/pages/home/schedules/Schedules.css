@@ -1,0 +1,91 @@
+.rec-schedule {
+  padding-left: 40rem;
+}
+
+.rec-schedule .cap-rec-schedule {
+  height: 100rem;
+  display: flex;
+  align-items: center;
+  font-size: 30rem;
+  padding-right: 20rem;
+  color: #999999;
+}
+
+.rec-schedule .cap-rec-schedule div:first-child {
+  flex: 1;
+}
+
+.rec-schedule .card-schedule {
+  height: 495rem;
+  padding: 30rem;
+  border: 1rem solid #d3d3d3;
+  margin-right: 40rem;
+}
+
+.rec-schedule .card-schedule .title {
+  height: 150rem;
+  padding-left: 35rem;
+  border-left: 4rem solid #48acf2;
+}
+
+.rec-schedule .card-schedule .title .date {
+  font-size: 28rem;
+  color: #333333;
+  justify-content: flex-start;
+}
+
+.rec-schedule .card-schedule .title .date .day {
+  color: #999999;
+}
+
+.rec-schedule .card-schedule .title .time {
+  font-size: 32rem;
+  color: #999999;
+}
+
+.rec-schedule .card-schedule .title .status {
+  font-size: 24rem;
+  color: #e14a56;
+}
+
+.rec-schedule .card-schedule .title .teams {
+  font-size: 30rem;
+  color: #555555;
+}
+
+.rec-schedule .card-schedule .info-img-area {
+  margin: 20rem 0;
+}
+
+.rec-schedule .card-schedule .info-img-area img {
+  width: 100%;
+  height: 180rem;
+  object-fit: cover;
+}
+
+.rec-schedule .card-schedule .info-area {
+  display: flex;
+  flex-direction: row;
+  height: 100rem;
+  align-items: center;
+}
+
+.rec-schedule .card-schedule .info {
+  margin-left: 20rem;
+}
+
+.rec-schedule .card-schedule .info-area div:first-child {
+  font-size: 26rem;
+  color: #444444;
+}
+
+.rec-schedule .card-schedule .info-area div:last-child {
+  font-size: 22rem;
+  color: #bbbbbb;
+}
+
+.rec-schedule .user-info-ic {
+  width: 71rem;
+  height: 71rem;
+}
+

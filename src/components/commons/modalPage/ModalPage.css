@@ -1,0 +1,24 @@
+.modal-page {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    bottom: 116rem;
+}
+
+.modal-page-content {
+    display: flex;
+    flex: 1;
+}
+
+.modal-hide {
+    top: 100vh;
+    transition-duration: 0.5s;
+    background: #ffffff;
+}
+
+.modal-show {
+    transition-duration: 0.5s;
+    top: 0;
+    background: #ffffff;
+    z-index: 1000;
+}
