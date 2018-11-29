@@ -1,8 +1,9 @@
 {
-  "main.css": "static/css/main.72a4af2a.css",
-  "main.css.map": "static/css/main.72a4af2a.css.map",
-  "main.js": "static/js/main.86001fef.js",
-  "main.js.map": "static/js/main.86001fef.js.map",
+  "main.css": "static/css/main.f7e0a856.css",
+  "main.css.map": "static/css/main.f7e0a856.css.map",
+  "main.js": "static/js/main.307c14b4.js",
+  "main.js.map": "static/js/main.307c14b4.js.map",
+  "static/media/MacOs.png": "static/media/MacOs.dff52937.png",
   "static/media/arrow-left.png": "static/media/arrow-left.c1adf37b.png",
   "static/media/arrown-right.png": "static/media/arrown-right.16e883de.png",
   "static/media/bg1.png": "static/media/bg1.06eec62c.png",
@@ -11,6 +12,7 @@
   "static/media/data_img.png": "static/media/data_img.cace8854.png",
   "static/media/delete.png": "static/media/delete.8f845f9c.png",
   "static/media/facebook_icon.png": "static/media/facebook_icon.5c948391.png",
+  "static/media/google.png": "static/media/google.314fc5cf.png",
   "static/media/help.png": "static/media/help.f1dea9ec.png",
   "static/media/ic_Schedule.png": "static/media/ic_Schedule.29e20d1d.png",
   "static/media/ic_birthday.png": "static/media/ic_birthday.2c16c001.png",
@@ -23,6 +25,8 @@
   "static/media/ic_icon2.png": "static/media/ic_icon2.01adb98b.png",
   "static/media/ic_icon3.png": "static/media/ic_icon3.14b3db9a.png",
   "static/media/ic_icon4.png": "static/media/ic_icon4.79f5300c.png",
+  "static/media/ic_like.png": "static/media/ic_like.d1622e57.png",
+  "static/media/ic_pin.png": "static/media/ic_pin.544173e3.png",
   "static/media/ic_pulic.png": "static/media/ic_pulic.ca186a4a.png",
   "static/media/ic_share.png": "static/media/ic_share.7ea0d1aa.png",
   "static/media/ic_website.png": "static/media/ic_website.3e92d644.png",
@@ -33,6 +37,7 @@
   "static/media/img_3.png": "static/media/img_3.0ba2b485.png",
   "static/media/img_header.png": "static/media/img_header.b2aeeae8.png",
   "static/media/logo_bg.png": "static/media/logo_bg.638127c8.png",
+  "static/media/map_area.png": "static/media/map_area.da3133c3.png",
   "static/media/mypage.png": "static/media/mypage.67a36353.png",
   "static/media/myuser.png": "static/media/myuser.d3b95306.png",
   "static/media/pencil_edit.png": "static/media/pencil_edit.7de2842c.png",
@@ -41,5 +46,6 @@
   "static/media/user.png": "static/media/user.15d9794c.png",
   "static/media/user_icon.png": "static/media/user_icon.2b40a20f.png",
   "static/media/user_img.png": "static/media/user_img.f75213ef.png",
-  "static/media/web.png": "static/media/web.61b23e9f.png"
+  "static/media/web.png": "static/media/web.61b23e9f.png",
+  "static/media/yahoo.png": "static/media/yahoo.89291ad4.png"
 }
