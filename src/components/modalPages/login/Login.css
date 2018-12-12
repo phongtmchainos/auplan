@@ -1,0 +1,129 @@
+#login .ground-button {
+    margin-top: 3rem;
+}
+
+#login .cancel {
+    padding: 0 4rem;
+}
+
+#login .cancel button   {
+    text-align: left;
+    background-color: #fff;
+    padding: 0 4rem;
+    height: auto;
+}
+
+#login .logo{
+    text-align: center;
+}
+
+#login form.field{
+    margin-top: 1.8rem;
+}
+
+#login .field{
+    padding: 1rem 5rem 0 5rem;
+}
+
+#login .forgetPass{
+    text-align: left;
+}
+
+#login .form-control{
+    height: 10rem;
+    border: none;
+    border-bottom: 0.1rem solid #e8e7e6;
+    box-shadow: none;
+    padding: 0;
+    font-size: 2.9rem;
+    border-radius: 0;
+    color: #333;
+    background-color: #FFF;
+}
+
+#login .form-control::placeholder {
+    font-size: 2.8rem;
+    color: #cccccc;
+}
+
+#login .form-control:focus {
+    border-bottom: 0.1rem solid #00b1c3;
+    box-shadow: none;
+}
+
+#login .help{
+    font-size: 2.6rem;
+    color: #4392e3;
+    padding-top: 2rem;
+    /* display: flex; */
+    /* align-items: center; */
+    position: relative;
+    text-align: center;
+}
+#login .help .createAccount{
+    /* position: absolute; */
+    /* right: 0; */
+    padding-top: 1.5rem;
+}
+
+#login .help span{
+    padding-right: 1.5rem;
+}
+
+#login button{
+    font-size: 3.1rem;
+    color: #fff;
+    height: 9.4rem;
+    border: none;
+    border-radius: 5rem;
+    width: 94%;
+}
+
+#login .btn-m,
+#login .fb{
+    padding: 2rem 6rem 0 6rem;
+}
+
+#login .btn-m{
+    text-align: center;
+}
+
+#login .btn-m button{
+    background-image: linear-gradient(to right, #28cbd5 , #5ceadc);
+}
+
+#login .btn-red button{
+    background-image: linear-gradient(to right, #d52845 , #ea5c5c);
+}
+
+#login .fb{
+    text-align: center;
+}
+
+#login .fb button{
+    background-image: linear-gradient(to right, #4467b1 , #7298e8);
+}
+
+#login .fb button span{
+    padding-right: 1.5rem;
+}
+
+#login .logo-ic {
+    width: 10rem;
+    height: 14.3rem;
+}
+
+#login .help-ic {
+    width: 4.8rem;
+    height: 4.8rem;
+}
+
+#login .facebook-ic {
+    width: 5rem;
+    height: 5rem;
+}
+#login .content-login{
+    width: 100%;
+    top: 14rem;
+    position: absolute;
+}

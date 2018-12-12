@@ -1,0 +1,60 @@
+.search_account{
+    padding: 0 4rem;
+}
+.search_account .card_user{
+    padding: 2rem 0 2rem 0;
+}
+.search_account .card_user .user_icon img{
+    width: 10rem;
+}
+.search_account .card_user .name{
+    color:#444444;
+    padding-top: 0.1rem;
+}
+.search_account .card_user .name p{
+    font-size: 2.5rem;
+    color: #bbbbbb;
+}
+.search_account .card_user .name p span{
+    padding-right: 1.2rem;
+}
+.search_account .card_user .name p span img{
+    width: 8.5rem;
+}
+.search_account .card_user .inner{
+    display: flex;
+    float: right;
+    font-size: 2.8rem;
+    color:#999999;
+}
+.search_account .card_user .inner .fan{
+    padding-right:2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.search_account .card_user .inner .spot img{
+    margin-bottom: -0.1rem;
+}
+
+.search_account .card_user .inner .fan span,
+.search_account .card_user .inner .post span{
+    display: inline;
+    margin-bottom: -1rem;
+}
+
+.search_account .card_user .inner .post span{
+    padding-top: 0.5rem;
+    display: flex;
+    float: right;
+}
+
+.search_account .card_user .inner img{
+    padding-right:0.6rem;
+    width: 3.8rem;
+}
+/* ------------------------------------------------------- */
+
+
+
+

@@ -1,16 +1,10 @@
-import {BaseApi} from "./BaseApi";
-// import {put} from 'redux-saga/effects';
-// import * as types from '../constants/actionTypes';
+import { BaseRequest } from "./BaseRequest";
+import {FETCH_HOME_TOP_IMAGE_SUCCESS} from "../actions/home/actionTypes";
 
-function* fetchTopImages(action) {
-  try {
-    yield BaseApi.get('/calendars/recommend');
-    // console.log(result);
-  } catch (e) {
-    // console.log(e.message);
-  }
+function* fetchHomeTopImages() {
+    yield BaseRequest.fetchData('/top_images', FETCH_HOME_TOP_IMAGE_SUCCESS);
 }
 
 export const ImagesRequest = {
-  fetchTopImages,
+    fetchHomeTopImages
 };

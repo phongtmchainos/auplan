@@ -1,13 +1,17 @@
-import initState from './initialState';
+import {FETCH_HOME_TOP_IMAGE_SUCCESS} from "../actions/home/actionTypes";
 
-export const imageReducers = (state = initState.dataImages, action) => {
-  switch (action.type) {
-    case 'FETCH_TOP_IMAGE':
-      return {
-        ...state,
-        data: action.result
-      };
-    default:
-      return state;
-  }
+let initState = {
+    homeTopImages: []
+};
+
+export const imageReducers = (state = initState, action) => {
+    switch (action.type) {
+        case FETCH_HOME_TOP_IMAGE_SUCCESS:
+            return {
+                ...state,
+                homeTopImages: action.data
+            };
+        default:
+            return state;
+    }
 };

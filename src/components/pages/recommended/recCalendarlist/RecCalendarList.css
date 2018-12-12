@@ -1,0 +1,9 @@
+#RecCalendarlist{
+    padding: 0 4rem 5rem 4rem;
+}
+
+#RecCalendarlist .search_header .title{
+    font-size: 3rem;
+    margin-left: 20rem;
+    font-weight: bold;
+}

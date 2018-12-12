@@ -1,0 +1,148 @@
+#calendar_regis {
+    padding-bottom: 5rem;
+}
+#calendar_regis .calendar_regis_header{
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+    position: relative;
+}
+#calendar_regis .calendar_regis_title{
+    position: relative;
+    align-items: center;
+    height: 16.5rem;
+    background-color: #00b1c3;
+}
+#calendar_regis .calendar_regis_title .title{
+    font-size: 3.6rem;
+    color: #fefefe;
+    font-weight: 500;
+    bottom: 2.8rem;
+    position: absolute;
+}
+
+#calendar_regis .cancel button   {
+    width: 2rem;
+    height: 3.6rem;
+    text-align: left;
+    background-color: #fff;
+    position: absolute;
+    bottom: 3.7rem;
+    padding-top: 0rem;
+}
+#calendar_regis .cancel button img{
+    width: 2rem;
+    height: 3.6rem;
+}
+#calendar_regis .title{
+    font-size: 3.6rem;
+    color: #1a1406;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+#calendar_regis .feild{
+    padding: 0 4rem 6rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+#calendar_regis .feild .form-control{
+    padding: 0 0 0 9rem;
+}
+#calendar_regis .feild .form-control-start{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #222222;
+    text-align: left;
+}
+#calendar_regis .feild .form-control-start img{
+    height: 4.8rem;
+    width: 4.8rem;
+}
+#calendar_regis .feild .form-control{
+    font-size: 3.2rem;
+    font-weight: 300;
+    color: #555555;
+}
+
+
+#calendar_regis .text{
+    font-size: 2.6rem;
+    color: #555555;
+    padding: 6rem 4rem 0 4rem;
+    text-align: justify;
+}
+
+
+#calendar_regis .mailadress .form-control{
+    height: 10rem;
+    border: none;
+    border-bottom: 0.2rem solid #e8e7e6;
+    box-shadow: none;
+    font-size: 3.2rem;
+    color: #555555;
+    border-radius: 0;
+}
+
+#calendar_regis  .form-control{
+    height: 10rem;
+    border: none;
+    border-bottom: 0.3rem solid #e8e7e6;
+    box-shadow: none;
+    font-size: 3rem;
+    color: #999999;
+    border-radius: 0;
+}
+#calendar_regis  .form-control::placeholder {
+    color: #cccccc;
+}
+#calendar_regis .form-control:focus {
+    border-bottom: 0.2rem solid #00b1c3;
+    box-shadow: none;
+}
+
+#calendar_regis  .form-control-feedback{
+    bottom: 1.5rem;
+    right: 0rem;
+    top: auto;
+}
+#calendar_regis  .form-control-feedback img{
+    width: 9.2rem;
+    height: 6.3rem;
+}
+
+
+#calendar_regis button{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #fff;
+    height: 9.4rem;  
+    border: none;
+    border-radius: 10rem;
+    width: 56rem; 
+}
+#calendar_regis .btn-m{
+    text-align: center;
+    padding:6rem 8rem 0 8rem;
+}
+#calendar_regis .btn-m button{
+    background-image: linear-gradient(to right, #28cbd5 , #5ceadc);
+}
+
+#calendar_regis .form-group {
+    position: relative;
+}
+#calendar_regis .form-control-start {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 3.4rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    pointer-events: none;
+    bottom: 3.4rem;
+}
+

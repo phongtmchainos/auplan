@@ -1,18 +1,20 @@
 #notice .notice_header{
-    height: 100rem;
-    display: flex;
-    align-items: center;
-    padding:34rem 40rem 32rem 40rem;
+    height: 10rem;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-align: center;
+    /* align-items: center; */
+    padding: 2.5rem 4rem 3.2rem 4rem;
     border-bottom: 1px solid #d3d3d3; 
 }
 
 #notice .notice_header .cancel{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color: #4392e3;
 }
 
 #notice .notice_header .title{
-    font-size: 36rem;
+    font-size: 3.6rem;
     color: #1a1406;
     text-align: center;
 }
@@ -21,89 +23,91 @@
     padding-right: 0rem;
 }
 #notice .notice_header .exit img{
-    width: 43rem;
-    height: 36rem;
+    width: 4.3rem;
+    height: 3.6rem;
 }
 
 #notice .notice_content{
-    padding-bottom: 50rem;
+    padding-bottom: 5rem;
 }
 #notice .notice_content .notice_items{
     border-bottom: 1px solid #d3d3d3;
-    padding: 20rem 0;
+    padding: 2rem 0;
+}
+#notice .notice_content .noRead{
+    background-color: #f5f8fa;
 }
 #notice .notice_content .notice_items .time{
-    font-size: 24rem;
+    font-size: 2.4rem;
     color: #999999;
 }
 #notice .notice_content .notice_items .user{
-    padding-top: 22rem;
+    padding-top: 2.2rem;
     display: flex;
 }
 #notice .notice_content .notice_items .user .user_icon{
-    padding-right: 22rem;
+    padding-right: 2.2rem;
 }
 #notice .notice_content .notice_items .user .user_icon img{
-    width: 49rem;
-    height: 49rem;
+    width: 4.9rem;
+    height: 4.9rem;
 }
 #notice .notice_content .notice_items .user .user_content{
 
 }
 #notice .notice_content .notice_items .user .user_content .user_name{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color: #333333;
-    padding-top: 10rem;
+    padding-top: 1rem;
 }
 #notice .notice_content .notice_items .user .user_content .user_name span{
     color: #555555;
 }
 #notice .notice_content .notice_items .user .user_content .calander{
-    font-size: 30rem;
+    font-size: 3rem;
     color: #555555;
-    padding-top: 40rem;
+    padding-top: 4rem;
     display: inline-flex;
 }
 #notice .notice_content .notice_items .user .user_content .calander img{
-    width: 46rem;
-    height: 47rem;
-    margin-right: 26rem;
+    width: 4.6rem;
+    height: 4.7rem;
+    margin-right: 2.6rem;
 }
 
 #notice .notice_content .notice_items .user .user_content .date,
 /* #notice .notice_content .notice_items1 .user .user_content .date, */
 #notice .notice_content .notice_items3 .user .user_content .date{
     color: #333333;
-    font-size: 44rem ;
+    font-size: 4.4rem ;
     display: inline-flex;
-    padding-top: 25rem;
-    font-size: 30rem;
+    padding-top: 2.5rem;
     align-items: center;
 }
 #notice .notice_content .notice_items .user .user_content .date span{ 
-    font-size: 30rem;
+    font-size: 3rem;
     color: #333333;
 }
 #notice .notice_content .notice_items1 .user .user_content .date,
 #notice .notice_content .notice_items1 .user .user_content .date span{
     color: #999999;
-    font-size: 26rem;
+    font-size: 2.6rem;
     display: inline-flex;
-    font-size: 30rem;
+    font-size: 3rem;
     align-items: center;
 }
 
 
 
 #notice .notice_content .notice_items .user .user_content .date img{ 
-width: 16rem;
-   margin: 0 25rem 0 21rem;
-   height: 42rem;
+width: 1.6rem;
+   margin: 0 2.5rem 0 2.1rem;
+   height: 4.2rem;
 }
 #notice .notice_content .notice_items1 .user .user_content .date img{ 
-    width: 10rem;
-   margin: 0 20rem 0 14rem;
-   height: 25rem;
+    width: 1rem;
+   margin: 0 2rem 0 1.4rem;
+   height: 2.5rem;
 }
 #notice .notice_content .notice_items .user .user_content .date .date_to{
     color:#e14a56;
@@ -112,52 +116,52 @@ width: 16rem;
     color:#5e95d4;
 }
 #notice .notice_content .notice_items .user .user_content .date_state{ 
-    font-size: 26rem !important;
+    font-size: 2.6rem !important;
     color:#555555;
-    margin-left: 12rem;
+    margin-left: 1.2rem;
 }
 
 #notice .notice_content .notice_items .user .user_content .hours{
-    padding-top: 15rem;
+    padding-top: 1.5rem;
     color: #999999;
-    font-size: 32rem;
+    font-size: 3.2rem;
 }
 #notice .notice_content .notice_items1 .user .user_content .hours,
     #notice .notice_content .notice_items3 .user .user_content .hours{
     color: #333333;
-    font-size: 44rem;
+    font-size: 4.4rem;
 }
 
 
 #notice .notice_content .notice_items .user .user_content .inner{
-    padding-top: 22rem;
+    padding-top: 2.2rem;
     color: #999999;
-    font-size: 32rem;
+    font-size: 3.2rem;
     display: inline-flex;
     align-items: center;
-    padding-left: 230rem;
+    padding-left: 23rem;
     float: right;
 }
 #notice .notice_content .notice_items .user .user_content .inner .follow,
 #notice .notice_content .notice_items .user .user_content .inner .like{
-    padding-right: 48rem;
+    padding-right: 4.8rem;
 }
 #notice .notice_content .notice_items .user .user_content .inner img{
-    width: 48rem;
-    height: 48rem;
-    margin-right: 18rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-right: 1.8rem;
 }
 #notice .notice_content .notice_items .user .user_content .inner .share img{
     margin-right: 0rem;
 }
 #notice .notice_content .notice_items3 .user .date_houser{
-    padding-left: 28rem;
-    border-left: 4rem solid #28cbd5;
-    margin-top: 20rem;
+    padding-left: 2.8rem;
+    border-left: 0.4rem solid #28cbd5;
+    margin-top: 2rem;
 }
 #notice .notice_content .notice_items3 .user .date_houser .d_title{
     padding-top: 0;
-    font-size: 30rem;
+    font-size: 3rem;
     color:#555555;
 }
 #notice .notice_content .notice_items3 .user .date_houser .date{

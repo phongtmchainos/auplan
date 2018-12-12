@@ -1,54 +1,126 @@
 html {
-  font-size: 0.130208333vw;
+    font-size: 1.30208333vw;
+}
+
+html body {
+    font-size: 1.4rem;
+    /** Support for scroll in IOS **/
+    -webkit-overflow-scrolling: touch !important;
 }
 
 .container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .content {
-  flex: 1;
-  overflow-y: scroll;
+    flex: 1;
+    overflow-y: scroll;
 }
 
 .menu {
-  background: #ffffff;
-  flex: 1;
-  height: 100vh;
+    background: #ffffff;
+    flex: 1;
+    height: 100vh;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
 }
 
 [class*="col-"] {
-  padding-left: 15rem;
-  padding-right: 15rem;
-  min-height: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    min-height: 0.1rem;
 }
-.d_flex_center{
-  display: flex;
-  align-items: center;
+
+.d_flex_center {
+    display: flex;
+    align-items: center;
 }
+
 /* form */
-.form-control-feedback{
-  width: auto;
-  height: auto;
-  line-height: 34rem;
+.form-control-feedback {
+    width: auto;
+    height: auto;
+    line-height: 3.4rem;
 }
+
 .form-horizontal .form-group {
-  margin-right: -15rem;
-  margin-left: -15rem;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
 }
+
 .form-group {
-  margin-bottom: 15rem;
+    margin-bottom: 1.5rem;
 }
+
 label {
-  margin-bottom: 5rem;
+    margin-bottom: 0.5rem;
 }
+
 .row {
-  margin-right: -15rem;
-  margin-left: -15rem;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
 }
+
+.form-control {
+    border-radius: 0;
+}
+
+.cancel button img,
+.cancel-ic {
+    width: 3rem;
+    height: 3rem;
+}
+
+.modal-custom {
+    width: 90%;
+    top: 9rem;
+    position: relative;
+    background-color: #fff;
+    padding: 2rem 0 0 0;
+    height: 95rem;
+    border-radius: 0.8rem;
+    margin: auto;
+}
+
+.modal-page .search_header {
+    height: 8rem;
+    padding-top: 3.2rem;
+    display: flex;
+}
+
+.search_header .cancel img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.rbc-date-cell .rbc-now,
+.rbc-date-cell.rbc-now {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.recommended .slider-frame{
+    padding: 1px 0!important;
+    min-height: 25.4rem;
+}
+
+.div-modal {
+    display: block;
+    width: 100vm;
+    height: 100vh;
+}
+
+.form-control-feedback,
+.form-control-feedback img {
+    pointer-events: auto!important;
+}
+
 /* -------------------------------- */

@@ -1,0 +1,99 @@
+#Confirm_new_account_registration{
+    height: 104rem!important;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .cancel button {
+    text-align: left;
+    background-color: #fff;
+    padding-top: 0;
+    height: auto;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .logo {
+    padding-top: 8rem;
+    text-align: center;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .field {
+    margin-top: 19rem;
+    position: relative;
+}
+
+.Confirm_new_account_registration_content .form-horizontal .form-group:last-child {
+    bottom: -7rem;
+}
+
+.Confirm_new_account_registration_content .form-horizontal .form-group:first-child {
+    bottom: 5rem;
+}
+
+.Confirm_new_account_registration_content .form-horizontal .form-group {
+    position: absolute;
+    width: 91%;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .form-control {
+    height: 10rem;
+    border: none;
+    border-bottom: 0.3rem solid #e8e7e6;
+    box-shadow: none;
+    font-size: 3.2rem;
+    color: #4392e3
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .field .form-control-feedback {
+    top: 3rem;
+    right: 2.5rem;
+    line-height: 3.4rem;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .field .form-control-feedback img {
+    height: 4.6rem;
+    width: 4.6rem;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .form-control::placeholder {
+    font-size: 3.2rem;
+    color: #cccccc;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .form-control:focus {
+    border-bottom: 0.3rem solid #00b1c3;
+    box-shadow: none;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content button {
+    font-size: 3.4rem;
+    color: #fff;
+    height: 9.4rem;
+    border: none;
+    border-radius: 10rem;
+    width: 100%;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .btn-m {
+    margin-top: 12rem;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .btn-m button {
+    background-image: linear-gradient(to right, #28cbd5, #5ceadc);
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .title {
+    font-size: 3.6rem;
+    color: #1a1406;
+    text-align: center;
+    padding-top: 5.5rem;
+    font-weight: 600;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .content {
+    font-size: 2.8rem;
+    color: #555555;
+    padding: 8rem 0 0 5.2rem;
+    text-align: left;
+}
+
+#Confirm_new_account_registration .Confirm_new_account_registration_content .content-address {
+    margin-top: 3rem;
+}

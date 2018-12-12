@@ -6,31 +6,37 @@
 }
 
 .mypage-edit .my-page-edit-header{
-    height: 100rem;
-    padding: 0 25rem;
+    height: 10rem;
+    padding: 0 2.5rem;
     display: flex;
     align-items: center;
-    border-bottom: 1rem solid #d3d3d3;
+    border-bottom: 0.1rem solid #d3d3d3;
 }
 
 .mypage-edit .my-page-edit-header .cancel{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color: #4392e3;
+}
+.mypage-edit .my-page-edit-header .cancel img{
+    width: 2rem;
+    height: 3.7rem;
 }
 
 .mypage-edit .my-page-edit-header .title{
-    font-size: 36rem;
+    font-size: 3.4rem;
+    width: 100%;
+    text-align: center;
 }
 
 .mypage-edit .my-page-edit-header .exit{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color: #4392e3;
     text-align: right;
 }
 
 .mypage-edit .photo{
     background-image: url("../../../icons/photo.png");
-    height: 310rem;
+    height: 31rem;
     position: relative;
     background-attachment: inherit;
     background-position: center;
@@ -40,8 +46,8 @@
 }
 
 .mypage-edit .photo .icon-camera{
-    height: 85rem;
-    width: 85rem;
+    height: 8.5rem;
+    width: 8.5rem;
     text-align: center;
     margin: auto;
     background-color: #363534;
@@ -54,14 +60,14 @@
 }
 
 .mypage-edit .photo .icon-camera img{
-    padding-top: 20rem;
-    width: 46rem;
-    height: 60rem;
+    padding-top: 2rem;
+    width: 4.6rem;
+    height: 6rem;
 }
 
 .mypage-edit .container-fluid{
-    padding-right: 40rem;
-    padding-left: 40rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 .mypage-edit .user {
@@ -72,12 +78,12 @@
     display: flex;
 }
 .mypage-edit .user .user-icon img {
-    width: 200rem;
-    height: 200rem;
+    width: 20rem;
+    height: 20rem;
 }
 .mypage-edit .user .user-icon .icon-camera{
-    height: 85rem;
-    width: 85rem;
+    height: 8.5rem;
+    width: 8.5rem;
     text-align: center;
     margin-top: auto;
     transform: translateX(-50%);
@@ -86,31 +92,31 @@
 }
 
 .mypage-edit .user .user-icon .icon-camera img{
-    padding-top: 20rem;
-    width: 46rem;
-    height: 60rem;
+    padding-top: 2rem;
+    width: 4.6rem;
+    height: 6rem;
 }
 
 .mypage-edit .field{
     transform: translateY(-10%);
 }
 .mypage-edit .field .ic_field{
-    width: 42rem;
-    height: 46rem;
+    width: 4.2rem;
+    height: 4.6rem;
 }
 .mypage-edit .field .control-label {
-    padding-top: 15rem;
+    padding-top: 1.5rem;
 }
 .mypage-edit .form-control{
-    height: 90rem;
-    font-size: 30rem;
+    height: 9rem;
+    font-size: 3rem;
     font-weight: 300;
     border: none;
-    border-bottom: 1rem solid #e8e7e6;
+    border-bottom: 0.1rem solid #e8e7e6;
     box-shadow: none;
 }
 .mypage-edit .form-control:focus {
-    border-bottom: 1rem solid #00b1c3;
+    border-bottom: 0.1rem solid #00b1c3;
     box-shadow: none;
 }
 .mypage-edit .form-control::placeholder {
@@ -118,20 +124,20 @@
 }
 
 .mypage-edit .form-group label img{
-    padding-top: 1.5rem;
+    padding-top: 0.15rem;
 }
 
 .mypage-edit .form-control-feedback{
-    top: 30rem;
-    right: 15rem;
+    top: 3rem;
+    right: 1.5rem;
 }
 .mypage-edit .form-control-feedback img{
-    width: 42rem;
+    width: 4.2rem;
 }
 .mypage-edit .ic_arrown_right img{
-    width: 15rem;
-    height: 26rem;
+    width: 1.5rem;
+    height: 2.6rem;
 }
 .mypage-edit .ic_arrown_right{
-    right: 30rem;
+    right: 3rem;
 }

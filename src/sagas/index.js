@@ -1,8 +1,23 @@
-import { fork } from 'redux-saga/effects';
+import {fork} from 'redux-saga/effects';
 import {
-  watchFetchTopImages
-} from './watchers';
+    watchFetchHomeTopImages,
+    watchFetchHomeCalendarRecommend,
+    watchFetchHomeCalendarRecent,
+    watchFetchHomeUserRecommend,
+    watchFetchHomeScheduleRecommend,
+    watchFetchHomeScheduleRecent,
+} from './homeSagas';
 
-export default function* startForman() {
-  yield fork(watchFetchTopImages);
+import {
+    watchFetchCalendarMonthly
+} from './clendarMonthlySagas'
+
+export default function* rootSagas() {
+    yield fork(watchFetchHomeTopImages);
+    yield fork(watchFetchHomeCalendarRecommend);
+    yield fork(watchFetchHomeCalendarRecent);
+    yield fork(watchFetchHomeUserRecommend);
+    yield fork(watchFetchHomeScheduleRecommend);
+    yield fork(watchFetchHomeScheduleRecent);
+    yield fork(watchFetchCalendarMonthly);
 }

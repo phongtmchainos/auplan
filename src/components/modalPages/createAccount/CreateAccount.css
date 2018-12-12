@@ -1,0 +1,84 @@
+#Create_new_account{
+    height: 104rem!important;
+}
+
+#Create_new_account .cancel button   {
+    text-align: left;
+    background-color: #fff;
+    padding: 0 0.2rem !important;
+}
+
+#Create_new_account .logo{
+    padding-top: 8rem;
+    text-align: center;
+}
+#Create_new_account .field{
+    padding-top: 7rem;
+}
+#Create_new_account .form-control{
+    height: 10rem;
+    border: none;
+    border-bottom: 0.3rem solid #e8e7e6;
+    box-shadow: none;
+}
+#Create_new_account .form-control::placeholder {
+    font-size: 3.2rem;
+    color: #cccccc;
+}
+#Create_new_account .form-control:focus {
+    border-bottom: 0.3rem solid #00b1c3;
+    box-shadow: none;
+}
+
+.modal-page-content #Create_new_account .help{
+    font-size: 2.6rem;
+    color: #00b1c3;
+    padding-top: 2.5rem;
+    text-align: left;
+    text-indent: 6rem;
+}
+
+#Create_new_account .help span{
+    padding-right: 1.5rem;
+}
+#Create_new_account .help img{
+    width: 4.8rem;
+    height: 4.7rem;
+}
+#Create_new_account button{
+    font-size: 3.4rem;
+    color: #fff;
+    border: none;
+    border-radius: 10rem;
+    width: 100%; 
+}
+#Create_new_account .btn-m{
+    text-align: center;
+    padding: 8rem 6rem 0 6rem;
+    margin-top: 4rem;
+}
+#Create_new_account .btn-m button{
+    background-image: linear-gradient(to right, #28cbd5 , #5ceadc);
+}
+#Create_new_account .content_page{
+    font-size: 2.8rem;
+    color: #555555;
+    padding: 7rem 6rem 0 6rem;
+}
+#Create_new_account .content_page span{
+    color: #4392e3;
+}
+#Create_new_account .title{
+    font-size: 3.6rem;
+    color: #1a1406;
+    text-align: center;
+    /* padding-top: 5.5rem;  */
+    font-weight: 600;
+}
+
+#Create_new_account .Create_new_account_content{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    /* top: 12.5rem; */
+}

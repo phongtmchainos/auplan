@@ -1,0 +1,18 @@
+#recScheduleList{
+    padding: 0 4rem 5rem 4rem;
+}
+#recScheduleList .search_header{
+    height: 9rem;
+    padding-top: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+#recScheduleList .search_header .title{
+    font-size: 3rem;
+    margin-left: 20rem;
+    font-weight: bold;
+}
+#recScheduleList .search_header img{
+    width: 3rem;
+    height: 3rem;;
+}

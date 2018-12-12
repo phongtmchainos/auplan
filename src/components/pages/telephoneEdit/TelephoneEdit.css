@@ -1,0 +1,198 @@
+.editPhone {
+    padding-bottom: 5rem;
+}
+
+.editPhone .editPhone_header {
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.editPhone .cancel img {
+    width: 2rem;
+    height: 3.5rem;
+    bottom: -0.4rem;
+}
+
+.editPhone .title {
+    font-size: 3.6rem;
+    color: #1a1406;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.editPhone .name {
+    padding: 0 4rem 6rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.editPhone .name .form-control {
+    padding: 0 0 0 15rem;
+}
+
+.editPhone .name .form-control-start {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #222222;
+    width: 15rem;
+    text-align: left;
+}
+
+.editPhone .name .form-control {
+    font-size: 3.2rem;
+    font-weight: 300;
+    color: #555555;
+}
+
+.editPhone .address {
+    padding: 0 4rem 6rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.editPhone .address .form-control {
+    padding: 0 0 0 17rem;
+}
+
+.editPhone .address .form-control-start {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #222222;
+    width: 15rem;
+    text-align: left;
+}
+
+.editPhone .address .form-control {
+    font-size: 3.2rem;
+    font-weight: 300;
+    color: #555555;
+}
+
+.editPhone .address .form-control-feedback {
+    bottom: 4rem;
+}
+
+.editPhone .address .form-control-feedback img {
+    width: 1.5rem;
+    height: 2.6rem;
+}
+
+.editPhone .phone {
+    padding: 0 4.5rem 6rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.editPhone .phone .form-control {
+    padding: 0 0 0 17rem;
+}
+
+.editPhone .phone .form-control-start {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #222222;
+    width: 15rem;
+    text-align: left;
+}
+
+.editPhone .phone .form-control {
+    font-size: 3.2rem;
+    font-weight: 300;
+    color: #555555;
+}
+
+.editPhone .mailadress .form-control {
+    height: 10rem;
+    border: none;
+    border-bottom: 0.2rem solid #e8e7e6;
+    box-shadow: none;
+    font-size: 3.2rem;
+    color: #555555;
+    border-radius: 0;
+}
+
+.editPhone .mailadress .text {
+    font-size: 2.8rem;
+    color: #555555;
+    padding: 4.8rem 4rem 6rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.editPhone .password .field {
+    padding: 2rem 4rem 0 4rem;
+}
+
+.editPhone .form-control {
+    height: 10rem;
+    border: none;
+    border-bottom: 0.3rem solid #e8e7e6;
+    box-shadow: none;
+    font-size: 3rem;
+    color: #999999;
+    border-radius: 0;
+}
+
+.editPhone .form-control::placeholder {
+    color: #cccccc;
+}
+
+.editPhone .form-control:focus {
+    border-bottom: 0.3rem solid #00b1c3;
+    box-shadow: none;
+}
+
+.editPhone .password .text {
+    font-size: 2.8rem;
+    color: #555555;
+    padding: 4.8rem 4rem 6rem 4rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.editPhone .form-control-feedback {
+    bottom: 3rem;
+    width: 3.4rem;
+    height: 3.4rem;
+    top: auto;
+}
+
+.editPhone button {
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #fff;
+    height: 9.4rem;
+    border: none;
+    border-radius: 10rem;
+    width: 56rem;
+}
+
+.editPhone .btn-m {
+    text-align: center;
+    padding: 6rem 8rem 0 8rem;
+}
+
+.editPhone .btn-m button {
+    background-image: linear-gradient(to right, #28cbd5, #5ceadc);
+}
+
+.editPhone .form-group {
+    position: relative;
+}
+
+.editPhone .form-control-start {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 3.4rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    pointer-events: none;
+    bottom: 3.25rem;
+}
+
+.editPhone .area {
+    height: 30;
+    border-bottom: 0.1rem solid #f3f3f3;
+    background-color: #fcfcfc;
+}

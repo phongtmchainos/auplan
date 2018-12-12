@@ -1,0 +1,365 @@
+.myuser {
+    padding-bottom: 1.5rem;
+}
+.myuser .myuser-header{
+    height: 37rem;
+    background-image: url(../../../images/myuser.png) ;
+    color: #fff;
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.myuser .myuser-header .cancel{
+    font-size: 2.6rem;
+    color: #4392e3;
+}
+
+.myuser .myuser-header .cancel img {
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 2.1rem;
+    height: 3.7rem;
+}
+
+.myuser .myuser-header .title{
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+.myuser .myuser-header .menu   {
+    text-align: right;
+}
+.myuser .myuser-header .user{
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    transform: translateY(13.5rem);
+}
+.myuser .myuser-header .user .private{
+    text-align: right;
+}
+.myuser .myuser-header .user .private img{
+    height: 9.6rem;
+    width: 9.6rem
+}
+.myuser .myuser-header .user .user_icon{
+    padding-left: 0;
+}
+.myuser .myuser-header .user .user_icon img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.myuser .myuser-header .user .row{
+    display: flex;
+    align-items: center;
+}
+
+.myuser .myuser-header .user .name{
+    font-size: 4rem;
+    color: #444444;
+    padding-top: 6rem;
+}
+.myuser .myuser-header .user .nick{
+    font-size: 2.6rem;
+    color: #bbbbbb;
+}
+
+.myuser #content{
+    background-color: #C0BEC1;
+}
+
+
+.myuser .container-fluid{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.myuser .card_schedule .schedule{
+    border-top: 0.1rem solid #cccccc;
+    padding: 3rem 0 3.2rem 0;
+}
+
+.myuser .card_schedule .schedule .content{
+    font-size:  3rem;
+    color: #555555;
+    padding-left: 4rem;
+    margin-top: 2rem;
+    border-left: 0.4rem solid #28cbd5;
+}
+
+.myuser .card_schedule .schedule .content .date{
+    font-size: 4.4rem;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.myuser .card_schedule .schedule .content .date .from{
+    padding-right: 1.5rem;
+}
+.myuser .card_schedule .schedule .content .date .to{
+    padding-left: 2rem;
+}
+.myuser .card_schedule .schedule .content .date span{
+    font-size: 3rem;
+}
+.myuser .card_schedule .schedule .blue{
+    color: #5e95d4;
+}
+.myuser .card_schedule .schedule .red{
+    color: #e14a56;
+}
+.myuser .card_schedule .schedule .gray{
+    color: #999999;
+}
+
+.myuser .card_schedule .schedule .content .house{
+    font-size: 3.2rem;
+    color: #999999;
+    padding-top: 2rem;
+}
+.myuser .card_schedule .schedule .content .house span{
+    font-size: 2.4rem;
+}
+.myuser .card_schedule .slider .carousel-indicators {
+    bottom: -6rem;
+}
+.myuser .card_schedule .slider .carousel-indicators li{
+    background-color: #e3e3e3;
+    width: 1.4rem;
+    height: 1.4rem;
+    border: none;
+    margin: 0.1rem 0.8rem;
+}
+
+.myuser .card_schedule .slider .carousel-indicators .active{
+    background-color: #666666;
+}
+
+
+
+.myuser .card_schedule .private{
+    font-size: 2.2rem;
+    color: #555555;
+    text-align: right;
+}
+.myuser .card_schedule .private span{
+    padding-left: 0.5rem;
+}
+.myuser .card_schedule .private img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.myuser .card_schedule .prince_icon{
+    font-size: 3.2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 0.1rem solid #e9e9e9;
+}
+.myuser .card_schedule .prince_icon .prince{
+    color: #e14a56;
+}
+.myuser .card_schedule .prince_icon .row{
+    padding-top: 5.5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.myuser .cv .cv_bnt{
+    text-align: center;
+}
+
+.myuser .cv .cv_bnt .button{
+    display: inline-block;
+    font-size: 3.4rem;
+    color: #fff;
+    height: 7rem;
+    width: 28.5rem;
+    border:none;
+    box-shadow: none;
+    background-image: linear-gradient(to right, #2bccd5 , #5debdc);
+    border-radius: 5rem;
+    padding-top: 1rem;
+}
+
+.myuser .cv .cv_bnt .button img {
+    width: 4.6rem;
+    height: 4.7rem;
+    margin-top: -0.5rem;
+}
+
+.myuser .cv .cv_bnt .button span{
+    padding-right: 1rem;
+}
+
+.myuser .cv .cv_bnt2 .button{
+    border: 0.2rem solid #57e7db;
+    background-color: #fff;
+   
+    background-image: none;
+    height: 9.5rem;
+    width: 51.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+}
+.myuser .cv .cv_bnt2 .button a{
+    color: #57e7db;
+}
+
+.myuser .entry{
+    padding-top: 7rem;
+    text-align: center;
+    padding-bottom: 4.5rem;
+}
+
+
+.myuser .entry .title{
+    font-size: 2.8rem;
+    color: #444444;
+}
+
+.myuser .entry .list {
+    background-color: #dddddd;
+    width: 55rem;
+    margin: 0 auto;
+}
+.myuser .entry .list  .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.myuser .entry .list .list_item{
+    font-size: 2.4rem;
+    color: #bbbbbb;
+    padding-top: 1.5rem;
+    border: 0.1rem solid;
+}
+
+.myuser .entry .list .list_item p{
+    font-size: 4.2rem;
+    color: #555555;
+}
+
+.myuser .entry .list .center{
+    border-left: 0.2rem solid #eeeeee;
+    border-right: 0.2rem solid #eeeeee;
+}
+
+.myuser .more{
+    padding-top: 6.5rem;
+    font-size: 2.8rem;
+    color: #555555;
+    text-align: justify;
+    padding-bottom: 6rem;
+}
+
+.myuser .more .more_1{
+    text-align: center;
+    padding-top:6rem;
+    padding-bottom:9rem;
+}
+
+.myuser .more .text{
+    font-size: 2.8rem;
+    color: #4392e3;
+}
+
+.myuser .ubility{
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+.myuser .ubility row{
+    margin-left: 0;
+    margin-right: 2rem;
+}
+
+.myuser .ubility .control-label{
+    padding-right: 4rem;
+    font-size: 2.6rem;
+    color: #444444;
+    font-weight: 300;
+    position: absolute;
+    right: 0;
+}
+.myuser .ubility .control-label img{
+    width: 4.8rem;
+    height: 4.1rem;
+}
+.myuser .ubility .text-feild{
+    padding-right: 0;
+    position: relative;
+    width: 60rem;
+}
+
+.myuser .ubility .form-control-feedback{
+    top: 2.5rem;
+    right: 1.5rem;
+}
+
+.myuser .form-control-start {
+    position: absolute;
+    left: 4rem;
+    z-index: 2;
+    display: block;
+    width: 3.4rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    pointer-events: none;
+    top: 1.5rem;
+}
+.myuser .form-control-start img{
+    width: 3.6rem;
+    height: 3.6rem;
+}
+
+.myuser .form-control-feedback{
+    top:1.5rem;
+    right: 4rem;
+}
+.myuser .form-control{
+    height: 6.5rem;
+    border-radius: 5rem;
+    padding: 0 9.5rem;
+    font-size: 2.8rem;
+    color:#444444;
+    background-color: #eaeaea;
+}
+
+.myuser .form-horizontal{
+    font-size: 2.4rem;
+    color:#444444;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.myuser .nav-tabs>li>a{
+    font-size: 2.5rem;
+    color: #999999;
+}
+.myuser .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #444444;
+    border: none;
+    border-bottom: 0.4rem solid #28cbd5;
+}
+.myuser .nav-tabs>li {
+    width: 50%;
+    text-align: center;
+}
+
+.myuser .nav-tabs>li a {
+    padding-left: 0;
+    padding-right: 0;
+}
+.myuser .tab{
+    background-color: #fff;
+}

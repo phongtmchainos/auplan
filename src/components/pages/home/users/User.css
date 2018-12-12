@@ -1,13 +1,14 @@
 .rec-user {
-  padding-left: 40rem;
+  padding-left: 4rem;
+  min-height: 45rem;
 }
 
 .rec-user .cap-rec-user {
-  height: 100rem;
+  height: 10rem;
   display: flex;
   align-items: center;
-  font-size: 30rem;
-  padding-right: 20rem;
+  font-size: 3rem;
+  padding-right: 2rem;
   color: #999999;
 }
 
@@ -16,24 +17,47 @@
 }
 
 .card-user {
-  height: 290rem;
-  border: 1rem solid #d3d3d3;
+  height: 28rem;
+  width: 24rem;
+  border: 0.1rem solid #d3d3d3;
   text-align: center;
-  padding-top: 20rem;
-  margin-right: 30rem;
+  padding-top: 2rem;
+  margin-right: 3rem;
 }
 
 .card-user .name {
-  font-size: 30rem;
+  font-size: 3rem;
   color: #444444;
+  padding-top: 2rem;
 }
 
 .card-user .nick-name {
-  font-size: 24rem;
+  font-size: 2.4rem;
   color: #bbbbbb;
+}
+.card-user .nick-name img{
+  width: 8.3rem;
+  height: 2.6rem;
 }
 
 .rec-user .user-avatar {
-  width: 152rem;
-  height: 150rem;
+  width: 15.2rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.cap-rec-user{
+  position: relative;
+}
+
+.rec-user .cap-rec-user .loadMore{
+  position: absolute;
+  right: 2rem;
+}
+
+.rec-user .cap-rec-user .loadMore img{
+  width: 2.4rem;
+  height: 2.8rem;
+  margin-top: -0.9rem;
+  margin-left: 1rem;
 }

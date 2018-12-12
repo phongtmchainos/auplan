@@ -4,28 +4,32 @@
   overflow-y: scroll;
 }
 
+.calendar-monthly .rbc-calendar{
+  height: 86rem;
+}
+
 .calendar-monthly .custom-toolbar {
-  height: 100rem;
+  height: 10rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-right: 40rem;
-  padding-left: 30rem;
+  padding-right: 4rem;
+  padding-left: 3rem;
 }
 
 .calendar-monthly .custom-toolbar .left-toolbar {
-  width: 95rem;
+  width: 9.5rem;
 }
 
 .calendar-monthly .custom-toolbar .left-toolbar .date {
-  font-size: 26rem;
-  width: 48rem;
-  height: 46rem;
+  font-size: 2.5rem;
+  width: 4.8rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url("../../../icons/ic_date_48px.png") no-repeat;
-  background-size: 48rem 47rem;
+  background-size: 4.8rem 4.7rem;
 }
 
 .calendar-monthly .custom-toolbar .center-toolbar {
@@ -34,30 +38,30 @@
 }
 
 .calendar-monthly .custom-toolbar .center-toolbar .year {
-  font-size: 26rem;
+  font-size: 2.6rem;
   font-weight: bold;
   color: #cccccc;
-  margin-right: 20rem;
+  margin-right: 2rem;
 }
 
 .calendar-monthly .custom-toolbar .center-toolbar .month {
-  font-size: 43rem;
+  font-size: 4.3rem;
   color: #333333;
 }
 
 .calendar-monthly .custom-toolbar .right-toolbar {
-  width: 100rem;
-  padding-bottom: 15rem;
+  width: 10rem;
+  padding-bottom: 1.5rem;
   text-align: right;
-  font-size: 50rem;
+  font-size: 5rem;
   font-weight: bold;
   color: #666666;
 }
 
 .rbc-month-header {
-  height: 56rem;
-  line-height: 56rem;
-  font-size: 24rem;
+  height: 5.6rem;
+  line-height: 5.6rem;
+  font-size: 2.4rem;
 }
 
 .rbc-month-header .rbc-header {
@@ -65,52 +69,70 @@
   font-weight: normal;
 }
 
+.rbc-current{
+  position: relative;
+}
+
+.rbc-date-cell.rbc-current::after {
+  content: "";
+  position: absolute;
+  background: #F1F1F1;
+  z-index: -1;
+  height: 400%;
+  width: 100%;
+  outline: none;
+  border: none;
+  left: 0;
+  top: -0.7rem;
+}
+
 .calendar-monthly .rbc-month-row .rbc-row-content {
   height: 100%;
 }
 
 .calendar-monthly .rbc-month-row .rbc-row-content .rbc-row:first-child {
-  height: 55rem;
+  height: 5.5rem;
   display: flex;
   align-items: center;
 }
 
 .calendar-monthly .rbc-date-cell  {
   text-align: center;
+  padding-right: 0.5rem;
 }
 
 .calendar-monthly .rbc-off-range-bg {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 
 .calendar-monthly .rbc-event {
   text-align: center;
-  height: 26rem;
+  height: 2.6rem;
   padding: 0;
   border-radius: 0;
   background-color: #ee8a3a;
 }
 
 .calendar-monthly .rbc-date-cell .date {
-  font-size: 28.8rem;
+  font-size: 2.88rem;
 }
 
 .calendar-monthly .rbc-day-bg {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 
 .calendar-monthly .rbc-now .date  {
-  width: 40rem;
-  height: 40rem;
+  width: 5rem;
+  height: 5rem;
   background-color: #00b1c3;
   border-radius: 50%;
   color: #ffffff !important;
-  padding: 5rem;
+  padding: 0.5rem;
   font-weight: normal;
 }
 
 .calendar-monthly .rbc-event-content {
-  font-size: 20.41rem;
+  font-size: 2.041rem;
 }
 
 .calendar-monthly .rbc-row-content .rbc-date-cell:nth-child(6) a {
@@ -124,22 +146,22 @@
 .calendar-monthly .event-table {
   display: flex;
   flex-direction: row;
-  margin-top: 40rem;
+  margin-top: 4rem;
   flex: 1;
 }
 
 .calendar-monthly .left-content {
-  width: 100rem;
+  width: 10rem;
   text-align: center;
 }
 
 .calendar-monthly .left-content .event-date {
-  font-size: 45rem;
+  font-size: 4.5rem;
   font-weight: bold;
 }
 
 .calendar-monthly .left-content .event-day {
-  font-size: 28rem;
+  font-size: 2.8rem;
   color: #cccccc;
 }
 
@@ -148,31 +170,35 @@
 }
 
 .calendar-monthly .step-item {
-  height: 105rem;
-  width: 600rem;
+  height: 10.5rem;
+  width: 60rem;
   position: relative;
-  margin-bottom: 25rem;
-  left: 33rem;
+  margin-bottom: 2.5rem;
+  left: 3.3rem;
 }
 
 .calendar-monthly .step-circle {
   position: absolute;
   display: inline-block;
-  width: 15rem;
-  height: 15rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
-  top: 45rem;
-  left: -40rem;
+  top: 4.5rem;
+  left: -4rem;
 }
 
 .calendar-monthly .step-line {
   position: absolute;
   z-index: -1;
-  width: 5rem;
-  height: 130rem;
+  width: 0.5rem;
+  height: 13rem;
   background: #dddddd;
-  top: 50rem;
-  left: -35rem;
+  top: 5rem;
+  left: -3.5rem;
+}
+
+.right-content a:last-child .step-line {
+  display: none;
 }
 
 .calendar-monthly .event-info {
@@ -180,55 +206,58 @@
   flex-direction: row;
   color: #ffffff;
   height: 100%;
-  font-size: 32rem;
+  font-size: 3.2rem;
   align-items: center;
 }
 
 .calendar-monthly .event-info .time {
-  width: 100rem;
+  width: 10rem;
   text-align: center;
-  border-right: 2rem solid #ffffff;
+  border-right: 0.2rem solid #ffffff;
 }
 
 .calendar-monthly .event-info .event-content {
-  padding-left: 30rem;
+  padding-left: 3rem;
 }
 
 .calendar-monthly .add-schedule {
   background: url("../../../icons/btn.png") no-repeat;
-  background-size: 100rem 100rem;
-  height: 100rem;
-  width: 100rem;
+  background-size: 10rem 10rem;
+  height: 10rem;
+  width: 10rem;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   z-index: 1000;
-  bottom: 100rem;
-  right: 20rem;
+  bottom: 10rem;
+  right: 2rem;
 }
 
 .calendar-monthly .add-schedule .add-new-ic {
-  width: 46rem;
-  height: 47rem;
+  width: 4.6rem;
+  height: 4.7rem;
 }
 
 .calendar-monthly .add-schedule .open-ic {
-  font-size: 70rem;
+  font-size: 7rem;
   color: #ffffff;
+  margin-bottom: 1.5rem;
 }
 
 .calendar-monthly .add-schedule .close-ic {
   transform: rotate(45deg);
-  font-size: 70rem;
+  font-size: 7rem;
   color: #ffffff;
+  margin-bottom: 1rem;
+  margin-left: 1.2rem;
 }
 
 .calendar-monthly .pin-ic {
-  width: 20rem;
-  height: 31rem;
-  margin-right: 10rem;
+  width: 2rem;
+  height: 3.1rem;
+  margin-right: 1rem;
 }
 
 .calendar-monthly .add-schedule-modal {
@@ -237,7 +266,7 @@
   flex: 1 1;
   width: 100vw;
   align-items: flex-end;
-  bottom: 116rem;
+  bottom: 11.6rem;
 }
 
 .calendar-monthly .dark-area {
@@ -268,11 +297,11 @@
 }
 
 .calendar-monthly .main-modal {
-  height: 540rem;
+  height: 54rem;
   width: 100vw;
-  padding-top: 100rem;
-  padding-left: 105rem;
-  padding-right: 105rem;
+  padding-top: 10rem;
+  padding-left: 10.5rem;
+  padding-right: 10.5rem;
   background: #ffffff;
   z-index: 10;
 }
@@ -282,20 +311,20 @@
 }
 
 .calendar-monthly .add-schedule-button {
-  border: 1.5rem solid #28cbd5;
-  height: 92rem;
-  border-radius: 50rem;
+  border: 0.15rem solid #28cbd5;
+  height: 9.2rem;
+  border-radius: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 32rem;
-  margin-bottom: 40rem;
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
 }
 
 .calendar-monthly .add-schedule-button img {
-  width: 46rem;
-  height: 47rem;
-  margin-right: 10rem;
+  width: 4.6rem;
+  height: 4.7rem;
+  margin-right: 1rem;
 }
 
 .calendar-monthly .help {
@@ -303,7 +332,7 @@
 }
 
 .calendar-monthly .help img {
-  width: 48rem;
-  height: 48rem;
-  margin-right: 10rem;
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-right: 1rem;
 }

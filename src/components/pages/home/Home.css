@@ -1,81 +1,76 @@
 .home .main-slide {
-  height: 500rem;
-  border-bottom: 1rem solid #d3d3d3;
+  height: 50rem;
+  border-bottom: 0.1rem solid #d3d3d3;
 }
 
 .home .slide {
-  height: 500rem;
+  height: 50rem;
 }
 
 .home .slide img {
   width: 100vw;
-  height: 410rem;
+  height: 41rem;
 }
 
 .home .calendarArea {
-  border-bottom: 1rem solid #d3d3d3;
-  height: 465rem;
-  padding-top: 30rem;
+  border-bottom: 0.1rem solid #d3d3d3;
+  height: 46.5rem;
+  padding-top: 3rem;
 }
 
 .home .calendarArea .cap {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 40rem;
-  height: 48rem;
-  font-size: 32rem;
+  padding: 0 4rem;
+  height: 4.8rem;
+  font-size: 3.2rem;
   color: #666666;
 }
 
 .home .calendarArea .cap img {
-  margin-right: 20rem;
+  margin-right: 2rem;
 }
 
-.home .calendarArea .search-input {
+.home .calendarArea .search-form {
   flex-direction: row;
-  height: 67rem;
+  height: 6.7rem;
   background-color: #eaeaea;
-  border-radius: 30rem;
-  margin: 0 40rem;
-  padding: 0 30rem;
+  border-radius: 3rem;
+  margin: 0 4rem;
+  padding: 0 3rem;
   display: flex;
   align-items: center;
 }
 
-.home .calendarArea .search-input input {
+.home .calendarArea .search-form input {
   border: 0;
   background-color: #eaeaea;
   width: 100%;
-  font-size: 28rem;
-  padding: 0 30rem;
+  font-size: 2.8rem;
+  padding: 0 3rem;
 }
 
 .home .calendarArea .calendar {
-  height: 160rem;
+  height: 16rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 30rem;
+  font-size: 3rem;
 }
 
 .home .calendarArea .location {
   display: flex;
   flex-direction: row;
-  height: 165rem;
+  height: 16.5rem;
   align-items: center;
   justify-content: center;
 }
 
 .home .calendarArea .location span {
-  margin-left: 20rem;
-  color: #4392e3;
-  font-size: 26rem;
-}
-
-.home .recommended {
-  border-bottom: 1rem solid #d3d3d3;
-  padding-bottom: 60rem;
+  margin-left: 2rem;
+  color: #00b1c3;
+  font-size: 2.6rem;
 }
 
 .home .recommended-close {
@@ -84,69 +79,84 @@
 }
 
 .home .recommended .cap {
-  height: 110rem;
+  height: 11rem;
   display: flex;
   align-items: center;
-  padding: 0 40rem;
-  border-bottom: 1rem solid #d3d3d3;
+  padding: 0 4rem;
+  border-bottom: 0.1rem solid #d3d3d3;
 }
 
 .home .recommended .cap div {
-  font-size: 32rem;
+  font-size: 3.2rem;
   color: #666666;
-  margin-left: 20rem;
+  margin-left: 2rem;
   flex: 1;
 }
 
 .home .cap .search-ic {
-  width: 48rem;
-  height: 48rem;
+  width: 4.8rem;
+  height: 4.8rem;
 }
 
-.home .search-input .search-ic {
-  width: 32rem;
-  height: 32rem;
+.home .search-form .search-ic {
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
-.home .search-input .delete-ic {
-  width: 32rem;
-  height: 32rem;
+.home .search-form .delete-ic {
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
 .home .location .location-ic {
-  width: 47rem;
-  height: 48rem;
+  width: 4.7rem;
+  height: 4.8rem;
 }
 
 .home .recommended .recommended-ic {
-  width: 41rem;
-  height: 48rem;
+  width: 4.1rem;
+  height: 4.8rem;
 }
 .home .recommended .close-ic {
-  width: 32rem;
-  height: 4rem;
+  width: 3.2rem;
 }
 
 .home .recommended .fan-ic {
-  width: 46rem;
-  height: 47rem;
+  width: 4.6rem;
+  height: 4.7rem;
 }
 
 .home .recommended .open-ic {
-  width: 32rem;
-  height: 32rem;
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
 .home .recommended .alert-ic {
-  width: 46rem;
-  height: 48rem;
+  width: 4.6rem;
+  height: 4.8rem;
 }
 
-.home .slider-control-bottomcenter ul {
-  top: 0 !important;
+.home .list-content {
+  border-bottom: 0.1rem solid #d3d3d3;
+  /* padding-bottom: 60rem; */
 }
 
-.arrow-right-ic {
-  width: 24rem;
-  height: 28rem;
+.home .list-content:last-child{
+  border-bottom: none;
+}
+
+.home .arrow-right-ic {
+  width: 2.4rem;
+  height: 2.8rem;
+}
+
+.slider-control-bottomcenter{
+  line-height: 9rem;
+  display: flex;
+  justify-content: end;
+  height: 9rem;
+}
+
+.slider-control-bottomcenter ul li button{
+  font-size: 4.2rem!important;
 }

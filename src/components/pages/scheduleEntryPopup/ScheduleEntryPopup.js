@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ScheduleEntryPopup.css";
 
 export default class ScheduleEntryPopup extends React.Component {
@@ -6,7 +7,7 @@ export default class ScheduleEntryPopup extends React.Component {
     return (
       <div className="schedule-entry-popup">
         <div className="row page_header">
-          <div className="cancel col-xs-3"><img src={require('../../../icons/close.png')} alt="" /></div>
+          <div className="cancel col-xs-3"><img src={require('../../../icons/close.png')} onClick={this.props.history.goBack} alt="" /></div>
           <div className="title col-xs-6">カレンダーを選択</div>
         </div>
         <div className="data_img">
@@ -28,38 +29,40 @@ export default class ScheduleEntryPopup extends React.Component {
           <div className="container-fluid">
             <div className="cap_item">
               <div className="row cap_item_info">
-                <div className="col-xs-1"><img className="ic_calander" src={require('../../../icons/ic_calander.png')}  alt="" /></div>
+                <div className="col-xs-1"><img className="ic_calander" src={require('../../../icons/ic_calander.png')} alt="" /></div>
                 <div className="col-xs-9 title">横浜ベイスターズ公式戦 2018</div>
-                <div className="col-xs-2"><img className="image"  src={require('../../../icons/img.png')}  alt="" /></div>
-              </div>
-            </div>
-            <div className="cap_item">
-              <div className="row cap_item_info">
-                <div className="col-xs-1"><img className="ic_calander" src={require('../../../icons/ic_calander.png')}  alt="" /></div>
-                <div className="col-xs-9 title">横浜ベイスターズ公式戦 2018</div>
-                <div className="col-xs-2"><img className="image"  src={require('../../../icons/img.png')}  alt="" /></div>
+                <div className="col-xs-2"><img className="image" src={require('../../../icons/img.png')} alt="" /></div>
               </div>
             </div>
             <div className="cap_item">
               <div className="row cap_item_info">
                 <div className="col-xs-1"><img className="ic_calander" src={require('../../../icons/ic_calander.png')} alt="" /></div>
                 <div className="col-xs-9 title">横浜ベイスターズ公式戦 2018</div>
-                <div className="col-xs-2"><img className="image"  src={require('../../../icons/img.png')} alt="" /></div>
+                <div className="col-xs-2"><img className="image" src={require('../../../icons/img.png')} alt="" /></div>
               </div>
             </div>
             <div className="cap_item">
               <div className="row cap_item_info">
-                <div className="col-xs-1"><img className="ic_calander" src={require('../../../icons/ic_calander.png')}  alt="" /></div>
+                <div className="col-xs-1"><img className="ic_calander" src={require('../../../icons/ic_calander.png')} alt="" /></div>
                 <div className="col-xs-9 title">横浜ベイスターズ公式戦 2018</div>
-                <div className="col-xs-2"><img className="image"  src={require('../../../icons/img.png')}  alt="" /></div>
+                <div className="col-xs-2"><img className="image" src={require('../../../icons/img.png')} alt="" /></div>
+              </div>
+            </div>
+            <div className="cap_item">
+              <div className="row cap_item_info">
+                <div className="col-xs-1"><img className="ic_calander" src={require('../../../icons/ic_calander.png')} alt="" /></div>
+                <div className="col-xs-9 title">横浜ベイスターズ公式戦 2018</div>
+                <div className="col-xs-2"><img className="image" src={require('../../../icons/img.png')} alt="" /></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="page-footer">
-          <div className="footer_plus"><img src={require('../../../icons/plus.png')}  alt="" /></div>
-          <div className="content">新しいカレンダーを作成</div>
-        </div>
+        <Link to="/calendar-registration">
+          <div className="page-footer">
+            <div className="footer_plus"><img src={require('../../../icons/plus.png')} alt="" /></div>
+            <div className="content">新しいカレンダーを作成</div>
+          </div>
+        </Link>
       </div>
 
     )

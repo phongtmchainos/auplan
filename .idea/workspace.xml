@@ -2,8 +2,199 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65f8d6c2-8e13-433d-94df-11564150129c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/calendarMonthly/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/calendarMonthly/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/home/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/ApiRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/BaseRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/CalendarMonthlyRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/CalendarsRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/SchedulesRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/UsersRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/BaseComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/BaseModalComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/BasePageComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/formInput/FromDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/formInput/Location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/formInput/SearchInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/formInput/ToDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/search/account/Account.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/search/account/Account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/search/calendar/Calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/search/calendar/Calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/search/schedule/Schedule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commons/search/schedule/Schedule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/CreateDatePicker/CreateDatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/CreateDatePicker/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/baseScreen/ScrollTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/baseScreen/TestScoll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/baseScreen/TopScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/baseScreen/WhenInView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/colorPalet/ColorPalet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/colorPalet/ColorPalet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/confirmAccountRegis/ConfirmAccountRegis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/confirmAccountRegis/ConfirmAccountRegis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/createAccount/CreateAccount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/createAccount/CreateAccount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/login/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/passwordReissue/PasswordReissue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/passwordReissue/PasswordReissue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/resetPassword/ResetPassword.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/resetPassword/ResetPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/sendAuthenMail/SendAuthenMail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalPages/sendAuthenMail/SendAuthenMail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/calendarDetail/calendar/Calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/calendarDetail/calendar/Calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/calendarMonthly/ScheduleList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/calendarRegistration/CalendarRegistration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/calendarRegistration/CalendarRegistration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/calendarSettings/CalendarSettings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/calendarSettings/CalendarSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/editMyCalendar/EditMyCalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/editMyCalendar/EditMyCalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/editPersonalInfo/EditPersonalInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/editPersonalInfo/EditPersonalInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/mailPassword/MailPassword.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/mailPassword/MailPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/myCalendarEdit/MyCalendarEdit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/myCalendarEdit/MyCalendarEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/myCalendarList/MyCalendarList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/myCalendarList/MyCalendarList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/myuser/MyUser.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/myuser/MyUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/recommended/recCalendarlist/RecCalendarList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/recommended/recCalendarlist/RecCalendarList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/recommended/recScheduleList/RecScheduleList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/recommended/recScheduleList/RecScheduleList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/recommended/recUserList/RecUserList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/recommended/recUserList/RecUserList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/resetPassMail/ResetPassMail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/resetPassMail/ResetPassMail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/search/HistorySearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/search/PopularSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/search/TopSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/syncCalendarSetting/SyncCalendarSetting.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/syncCalendarSetting/SyncCalendarSetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/telephoneEdit/TelephoneEdit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/telephoneEdit/TelephoneEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/layouts/BaseScreenContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/BaseContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/CalendarDetailContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/CalendarMonthlyContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/CalendarNewEntryContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/CalendarRegistrationContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/CalendarSettingsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/EditPersonalInfoContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/EditPhoneContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/MyCalendarEditContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/MyCalendarListContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/MyPageContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/MyPageEditContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/MyUserContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/NoticeContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/ResetPassMailContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/ScheduleDetailContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/ScheduleEntryPopupContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/ScheduleNewEntryContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/pages/SyncCalendarSettingContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/Utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_alart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_blue_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_help_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_list_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_privacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_reply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_schedule_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_sort2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_sort2.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/ic_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/imgtest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/user-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/myuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/calendarMonthlyReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/calendarReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/scheduleReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/screenStatusReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/userReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sagas/clendarMonthlySagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sagas/homeSagas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/BaseApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/ImagesRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/ImagesRequest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/modalPage/ModalPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/modalPage/ModalPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commons/modalPage/ModalPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commons/modalPage/ModalPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/baseScreen/BaseScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/baseScreen/BaseScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/menu/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/calendarDetail/CalendarDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/calendarDetail/CalendarDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/calendarDetail/CalendarDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/calendarDetail/CalendarDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/calendarMonthly/Calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/calendarMonthly/Calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/calendarMonthly/Calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/calendarMonthly/Calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/calendarNewEntry/CalendarNewEntry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/calendarNewEntry/CalendarNewEntry.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/calendarNewEntry/CalendarNewEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/calendarNewEntry/CalendarNewEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/calendars/Calendars.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/calendars/Calendars.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/calendars/Calendars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/calendars/Calendars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/schedules/Schedules.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/schedules/Schedules.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/schedules/Schedules.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/schedules/Schedules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/users/User.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/users/User.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/users/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/weekCalendar/WeekCalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/weekCalendar/WeekCalendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/weekCalendar/WeekCalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/weekCalendar/WeekCalendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/login/Login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/login/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/mypage/Mypage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/mypage/Mypage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/mypage/Mypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/mypage/Mypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/mypageEdit/MyPageEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/mypageEdit/MyPageEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/mypageEdit/MypageEdit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/mypageEdit/MypageEdit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/notice/Notice.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/notice/Notice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/notice/Notice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/notice/Notice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/scheduleDetail/ScheduleDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/scheduleDetail/ScheduleDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/scheduleDetail/ScheduleDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/scheduleDetail/ScheduleDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/scheduleEntryPopup/ScheduleEntryPopup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/scheduleEntryPopup/ScheduleEntryPopup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/scheduleEntryPopup/ScheduleEntryPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/scheduleEntryPopup/ScheduleEntryPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/scheduleNewEntry/ScheduleNewEntry.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/scheduleNewEntry/ScheduleNewEntry.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/scheduleNewEntry/ScheduleNewEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/scheduleNewEntry/ScheduleNewEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/search/Search.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/search/Search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configs/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/pages/CalendarContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/pages/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/pages/HomeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/arrown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/arrown.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/ic_edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/ic_edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/imageReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/imageReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/initialState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sagas/watchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,16 +206,30 @@
     <session id="-1715514432">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="13" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="js" value="13" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
         </counts>
@@ -32,14 +237,24 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="68" lean-forward="true" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+            <state relative-caret-position="289">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/common.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/ApiRequest.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -70,11 +285,13 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1987" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -96,6 +313,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,11 +321,21 @@
               <item name="client" type="b2602c69:ProjectViewProjectNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,6 +344,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,25 +373,35 @@
       <option name="presentableId" value="Default" />
       <updated>1541574511141</updated>
       <workItem from="1541574512217" duration="687000" />
+      <workItem from="1542355262545" duration="295000" />
+      <workItem from="1542355579150" duration="541000" />
+      <workItem from="1542620126175" duration="268000" />
+      <workItem from="1542620693646" duration="261000" />
+      <workItem from="1542870777445" duration="632000" />
+      <workItem from="1542871817447" duration="279000" />
+      <workItem from="1542944962791" duration="3000" />
+      <workItem from="1543201131503" duration="355000" />
+      <workItem from="1543478295527" duration="320000" />
+      <workItem from="1543809391543" duration="1003000" />
+      <workItem from="1544090223958" duration="722000" />
+      <workItem from="1544091555258" duration="436000" />
+      <workItem from="1544408944425" duration="333000" />
+      <workItem from="1544424040739" duration="365000" />
+      <workItem from="1544582544859" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="687000" />
+    <option name="totallyTimeSpent" value="6607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15605977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17075774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -166,10 +409,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4222689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,10 +427,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/BaseRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/ApiRequest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="68" lean-forward="true" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>

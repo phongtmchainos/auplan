@@ -1,0 +1,46 @@
+.color-palet{
+  
+}
+.color-palet .palet-header{
+    background-color: #28cbd5;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+}
+.color-palet .palet-header img{
+    width: 2rem;
+    height: 3.6rem;
+}
+.color-palet .palet-header span{
+    font-size: 3.4rem;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 8rem;
+}
+.color-palet .color-palet-content{
+    padding: 2.5rem 4rem 0 4rem;
+}
+.color-palet .color-palet-content .color-palet-items{
+    padding: 2.5rem 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.color-palet .color-palet-content .color-palet-items .items-color{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.color-palet .color-palet-content .color-palet-items .items-text{
+    padding-left: 7rem;
+    font-size: 3rem;
+}
+.color-palet .color-palet-content .color-palet-items .items-active img{
+   width: 3rem;
+   height: 2rem;
+}
+.color-palet .color-palet-content .color-palet-items .items-active{
+    position: absolute;
+    right: 0;
+}

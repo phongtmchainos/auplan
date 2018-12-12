@@ -1,0 +1,160 @@
+
+.search_calendar .calendar_item{
+    padding-top: 5.5rem;
+}
+.search_calendar .calendar_item .calendar_content{
+    font-size: 3rem;
+    color: #555555;
+    padding: 0.5rem 5rem;
+}
+.search_calendar .calendar_item .calendar_content .name .row{
+    padding-top: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.search_calendar .calendar_item .calendar_content .name .private {
+    text-align: right;
+}
+
+.search_calendar .calendar_item .calendar_content .name .private img{
+    padding-right: 1.2rem;
+}
+
+.search_calendar .calendar_item .calendar_content .name .fullname{
+    font-size: 2.6rem;
+    color: #444444;
+}
+
+.search_calendar .calendar_item .calendar_content .name .username{
+    font-size: 2.2rem;
+    color: #bbbbbb;
+}
+
+
+.search_calendar .calendar_item .calendar_content .img{
+    padding-top: 2rem;
+}
+.search_calendar .calendar_item .calendar_content .img img{
+    width: 100%;
+}
+
+.search_calendar .calendar_item .calendar_content .prince_icon{
+    padding-top: 3rem;
+    font-size: 3.2rem;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 3rem;
+}
+.search_calendar .calendar_item .calendar_content .prince_icon .img_follow img{
+    width: 4.5rem;
+}
+.search_calendar .calendar_item .calendar_content .prince_icon .prince{
+    color: #e14a56;
+}
+.search_calendar .calendar_item .calendar_content .prince_icon > .row{
+    display: flex;
+    align-items: center;
+}
+
+.search_calendar .calendar_item .calendar_content .calendar{
+    padding-top: 3rem;
+}
+
+.search_calendar .calendar_item .calendar_content .calendar .content{
+    font-size:  3rem;
+    color: #555555;
+    padding-left: 4rem;
+    margin-top: 2rem;
+    border-left: 0.4rem solid #28cbd5;
+}
+.search_calendar .calendar_item .calendar_content .calendar .content .date{
+    font-size: 4.4rem;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.search_calendar .calendar_item .calendar_content .calendar .content .date> img {
+    width: 1.8rem;
+}
+.search_calendar .calendar_item .calendar_content .calendar .content .date .from{
+    padding-right: 1.5rem;
+}
+.search_calendar .calendar_item .calendar_content .calendar .content .date .to{
+    padding-left: 2rem;
+}
+.search_calendar .calendar_item .calendar_content .calendar .content .date span{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.search_calendar .blue{
+    color: #5e95d4;
+}
+.search_calendar .red{
+    color: #e14a56;
+}
+
+.search_calendar .calendar_item .calendar_content .calendar .content .house{
+    font-size: 3.2rem;
+    color: #999999;
+    padding-top: 2rem;
+}
+.search_calendar .calendar_item .calendar_content .calendar .content .house span{
+    font-size: 2.4rem;
+    padding-left: 1.5rem;
+}
+.search_calendar .calendar_item .calendar-ic  .title{
+    font-size:  2.6rem;
+    color: #999999;
+}
+.search_calendar .calendar_item .calendar-ic {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.search_calendar .calendar_item .calendar-ic  img{
+    width: 4.6rem;
+    height: 4.7rem;
+    margin-right: 1.4rem;
+}
+.search_calendar .delete-ic {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.search_calendar .dropdown-ic {
+    width: 2.2rem;
+    height: 1.8rem;
+}
+
+.search_calendar .user-ic {
+    width: 7.1rem;
+    height: 7.1rem;
+}
+
+.search_calendar .public-ic {
+    width: 4.9rem;
+    height: 3.7rem;
+}
+
+.search_calendar .download-ic {
+    width: 4.6rem;
+    height: 4.6rem;
+}
+
+.search_calendar .like-ic {
+    width: 4.6rem;
+    height: 4.7rem;
+}
+
+.search_calendar .share-ic {
+    width: 4.7rem;
+    height: 4.7rem;
+}
+
+.rbc-date-cell .rbc-now {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

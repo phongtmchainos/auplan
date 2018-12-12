@@ -1,0 +1,109 @@
+.my-calendar-edit .header {
+    height: 3.6rem;
+    padding: 0.35rem 0.4rem 0 0.4rem;
+    background-image: url(../../../icons/img_header.png);
+    position: relative;
+}
+
+.my-calendar-edit .header .cancel {
+    font-size: 2.6rem;
+    color: #4392e3;
+}
+
+.my-calendar-edit .header .title {
+    font-size: 3.6rem;
+    text-align: center;
+    color: #fefefe;
+    position: absolute;
+    bottom: 4.7rem;
+}
+
+.my-calendar-edit .container-fluid {
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.my-calendar-edit .my-calendar-edit .user {
+    padding-top: 3rem;
+    display: flex;
+}
+
+.my-calendar-edit .my-calendar-edit .user .my-calendar-edit .user -icon img {
+    width: 7.2rem;
+    height: 7.2rem;
+}
+
+.my-calendar-edit .user .name {
+    font-size: 2.6rem;
+    color: #444444;
+    padding-top: 1rem;
+    padding-left: 2.2rem;
+}
+
+.my-calendar-edit .user .name p {
+    font-size: 2.2rem;
+    color: #bbbbbb;
+    margin-top: -0.5rem;
+
+}
+
+.my-calendar-edit .bnt-s {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.my-calendar-edit .bnt-s button {
+    font-size: 3rem;
+    color: #f6fbfb;
+    background-image: linear-gradient(to right, #28cbd5, #5debdc);
+    height: 7.2rem;
+    width: 38rem;
+    border: none;
+    box-shadow: none;
+    border-radius: 5rem;
+}
+
+.my-calendar-edit .account {
+    padding: 4rem 0 4.5rem 0;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.my-calendar-edit .menu {
+    font-size: 3rem;
+    color: #555555;
+    padding: 1.5rem 0;
+}
+
+.my-calendar-edit .menu .arrow {
+    float: right;
+    margin-top: 0.5rem;
+}
+
+.my-calendar-edit .menu span {
+    padding-right: 3.5rem;
+}
+
+.my-calendar-edit .color {
+    padding: 2.8rem 0 2.8rem 0;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.my-calendar-edit .edit {
+    padding: 4.5rem 0 3rem 0;
+    border-bottom: 0.1rem solid #d3d3d3;
+}
+
+.my-calendar-edit .alarm {
+    padding: 2.7rem 0 4.5rem 0;
+}
+
+.my-calendar-edit alarm .title {
+    font-size: 3rem;
+    color: #999999;
+}
+
+.my-calendar-edit .bold {
+    font-weight: bold;
+}

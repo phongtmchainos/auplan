@@ -1,78 +1,95 @@
 .calendar-detail .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
     width: 100%;
-    height: 360rem;
+    height: 36rem;
 }
 
 .calendar-detail .container-fluid{
-    padding-right: 40rem;
-    padding-left: 40rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 .calendar-detail .main-slide {
-    height: 500rem;
-    border-bottom: 1rem solid #d3d3d3;
+    height: 50rem;
+}
+
+.calendar-detail .slider-control-bottomcenter {
+    line-height: 4rem;
+}
+
+.calendar-detail .slider-control-bottomcenter ul {
+    top: 1rem!important;
 }
 
 .calendar-detail .slide {
-    height: 500rem;
+    height: 50rem;
 }
 
 .calendar-detail .slide img {
     width: 100vw;
-    height: 410rem;
+    height: 41rem;
 }
 
 .calendar-detail .card_schedule .user{
-    padding-top: 98rem;
-    padding-bottom: 20rem;
-    border-bottom: 1rem solid #e9e9e9;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #e9e9e9;
 
 }
 .calendar-detail .card_schedule .user .user_icon img{
-    width: 72rem;
-    height: 72rem;
+    width: 7.2rem;
+    height: 7.2rem;
 }
 .calendar-detail .card_schedule .user .row{
     display: flex;
     align-items: center;
+    width: 100%;
 }
 .calendar-detail .card_schedule .user .name{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color: #444444;
 }
 .calendar-detail .card_schedule .user .nick{
-    font-size: 22rem;
+    font-size: 2.2rem;
     color: #bbbbbb;
 }
 
 .calendar-detail .card_schedule .schedule{
-    padding: 36rem 0;
+    padding: 3.6rem 0;
 }
 .calendar-detail .card_schedule .schedule .row{
     display: flex;
     align-items: center;
 }
 .calendar-detail .card_schedule .schedule .title{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color: #555555;
 }
 .calendar-detail .card_schedule .private{
-    font-size: 22rem;
+    font-size: 2.2rem;
     color: #555555;
     text-align: right;
 }
 .calendar-detail .card_schedule .private img{
-    width: 36rem;
-    height: 36rem;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.calendar-detail .card_schedule .schedule .private img{
+    width: 5rem;
+    height: 4.7rem;
+    margin-left: 1rem;
+}
+.calendar-detail .card_schedule .schedule .private{
+    font-size: 3.2rem;
+    color: #999999;
 }
 .calendar-detail .card_schedule .private span{
-    padding-left: 5rem;
+    padding-left: 0.5rem;
 }
 
 .calendar-detail .card_schedule .prince_icon{
-    font-size: 32rem;
-    padding-bottom: 25rem;
-    border-bottom: 1rem solid #e9e9e9;
+    font-size: 3.2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 0.1rem solid #e9e9e9;
 }
 
 .calendar-detail .card_schedule .prince_icon .prince{
@@ -85,8 +102,20 @@
     width: 100%;
 }
 .calendar-detail .card_schedule .prince_icon img, .calendar-detail .prince_icon img{
-    width: 38rem;
-    height: 38rem;
+    width: 3.8rem;
+    height: 3.8rem;
+}
+.calendar-detail .card_schedule .prince_icon .ic_follow{
+    width: 4.6rem;
+    height: 4.8rem;
+}
+.calendar-detail .card_schedule .prince_icon .ic_like{
+    width: 4.6rem;
+    height: 4.3rem;
+}
+.calendar-detail .card_schedule .prince_icon .ic_share{
+    width: 5.2rem;
+    height: 4.7rem;
 }
 
 .calendar-detail .cv .cv_bnt{
@@ -94,201 +123,213 @@
 }
 
 .calendar-detail .cv .cv_bnt button{
-    margin-top: 20rem;
-    font-size: 34rem;
+    margin-top: 2rem;
+    font-size: 3.4rem;
     color: #fff;
-    height: 95rem;
-    width: 650rem;
+    height: 9.5rem;
+    width: 65rem;
     border:none;
     box-shadow: none;
     background-color: #57e7db;
-    border-radius: 50rem;
+    border-radius: 5rem;
 }
 
 .calendar-detail .cv .cv_bnt button span{
-    padding-right: 10rem;
+    padding-right: 1rem;
 }
 
 .calendar-detail .cv .cv_bnt2 button{
-    border: 2rem solid #57e7db;
+    border: 0.2rem solid #57e7db;
     background-color: #fff;
     color: #57e7db;
 }
 
 .calendar-detail .entry{
-    padding-top: 55rem;
+    padding-top: 5.5rem;
     text-align: center;
-    padding-bottom: 45rem;
-    border: 1rem solid #d3d3d3;
+    padding-bottom: 4.5rem;
+    border: 0.1rem solid #d3d3d3;
 }
 
 .calendar-detail .entry .title{
-    font-size: 28rem;
+    font-size: 2.8rem;
     color: #444444;
 }
 
 .calendar-detail .entry .list .row{
-    padding-top: 40rem;
+    padding-top: 4rem;
     justify-content: space-around;
     display: flex;
 }
 
 .calendar-detail .entry .list .list_item{
-    padding-top: 15rem;
-    font-size: 22rem;
+    padding-top: 1.5rem;
+    font-size: 2.2rem;
     color: #555555;
 }
 
 .calendar-detail .more{
-    padding-top: 50rem;
-    font-size: 28rem;
+    padding-top: 5rem;
+    font-size: 2.8rem;
     color: #555555;
     text-align: justify;
-    padding-bottom: 60rem;
+    padding-bottom: 6rem;
 }
 
 .calendar-detail .more .more_1{
     text-align: center;
-    padding-top:60rem;
-    padding-bottom:90rem;
+    padding-top:6rem;
+    padding-bottom:9rem;
 }
 .calendar-detail .more .more_1 img, .calendar-detail .comment .more2 img{
-    width: 175rem;
-    height: 25rem;
+    width: 17.5rem;
+    height: 2.5rem;
 }
 .calendar-detail .more .text{
-    font-size: 28rem;
+    font-size: 2.8rem;
     color: #4392e3;
 }
 
 .calendar-detail .place{
-    padding-top: 30rem;
-    padding-bottom: 60rem;
-    border: 1rem solid #d3d3d3;
+    padding-bottom: 6rem;
+}
+.calendar-detail .place .place-cap{
+    font-size: 3rem;
+    color: #999999;
+    padding: 3rem 4rem;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #f3f3f3;
+    border-top:1px solid #d3d3d3;
 }
 
 .calendar-detail .place .cap{
-    font-size: 30rem;
+    font-size: 3rem;
     color:#999999;
 }
 
 .calendar-detail .place .text1{
-    font-size: 28rem;
+    font-size: 2.8rem;
     color:#444444;
-    padding-top: 78rem;
+    padding-top: 7.8rem;
 }
 
 .calendar-detail .place .text2{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color:#999999;
-    padding-top: 30rem;
-    padding-bottom: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .calendar-detail .place .pin{
-    font-size: 28rem;
+    font-size: 2.8rem;
     color:#4392e3;
-    padding-top: 33rem;
+    padding-top: 3.3rem;
 }
 
 .calendar-detail .place .pin span{
-    padding-right: 20rem;
+    padding-right: 2rem;
 }
 
 .calendar-detail .link {
-    padding-top: 30rem;
-    padding-bottom: 60rem;
-    border: 1rem solid #d3d3d3;
+    /*padding-top: 3rem;*/
+    padding-bottom: 6rem;
+    border: 0.1rem solid #d3d3d3;
 }
 
-.calendar-detail .link .cap{
-    font-size: 30rem;
-    padding-top: 48rem;
+.calendar-detail .cap{
+    font-size: 3rem;
     color: #999999;
+    overflow: hidden;
+    height: 9.5rem;
+    background: #F7f7f7;
+    text-indent: 3.9rem;
+    line-height: 9.5rem;
+    border-bottom: 1px solid #F2f2f2;
 }
 
 .calendar-detail .link .text{
-    font-size: 28rem;
+    font-size: 2.8rem;
     color: #4392e3;
-    padding-top: 40rem;
+    padding-top: 4rem;
 }
 
 .calendar-detail .link .text span{
-    padding-right: 27rem;
+    padding-right: 2.7rem;
 }
 .calendar-detail .link .text span img{
-    width: 35rem;
-    height: 35rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 #user {
-    padding-top: 30rem;
-    padding-bottom: 60rem;
-    border: 1rem solid #d3d3d3;
+    /*padding-top: 3rem;*/
+    padding-bottom: 6rem;
+    border: 0.1rem solid #d3d3d3;
 }
 #user .cap{
-    color:999999;
-    font-size: 30rem;
+    color: #999999;
+    font-size: 3rem;
 }
 #user .card_user{
-    padding-top: 68rem;
+    padding-top: 6.8rem;
 }
 #user .card_user .user_name img{
-    width: 142rem;
-    height: 142rem;
+    width: 14.2rem;
+    height: 14.2rem;
 }
 #user .card_user .inner{
     display: flex;
     align-items: center;
-    font-size: 32rem;
+    font-size: 3.2rem;
     color: #999999;
-    padding-top: 34rem;
+    padding-top: 3.4rem;
 }
 #user .card_user .inner span{
-    padding-right: 22rem;
-    padding-left: 40rem;
+    padding-right: 2.2rem;
+    padding-left: 4rem;
 }
 #user .card_user .inner .fan{
     padding-left: 0rem;
 }
 #user .card_user .inner img{
-    width: 46rem;
-    height: 46rem;
+    width: 4.6rem;
+    height: 4.6rem;
 }
 #user .card_user .name1{
-    font-size: 30rem;
+    font-size: 3rem;
     color:#444444;
 }
 #user .card_user .name2{
-    font-size: 24rem;
+    font-size: 2.4rem;
     color: #bbbbbb;
 }
 #user .cv_bnt{
     text-align: center;
 }
 #user .cv_bnt .button{
-    margin-top: 40rem;
-    font-size: 34rem;
+    margin-top: 4rem;
+    font-size: 3.4rem;
     color: #fff;
-    height: 70rem;
-    width: 380rem;
+    height: 7rem;
+    width: 38rem;
     border:none;
     box-shadow: none;
-    background-color: #57e7db;
-    border-radius: 50rem;
-    padding-top: 15rem;
+    background-image: linear-gradient(to right, #28cbd5 , #5debdc);
+    border-radius: 5rem;
+    padding-top: 1.5rem;
     display: inline-block;
 }
 
 .calendar-detail .comment {
-    padding-top: 30rem;
-    padding-bottom: 60rem;
-    border: 1rem solid #d3d3d3;
+    padding-bottom: 7rem;
+    border: 0.1rem solid #d3d3d3;
 }
 
 .calendar-detail .comment .cap{
-    font-size: 30rem;
+    font-size: 3rem;
     color: #999999;
-    padding-bottom: 35rem;
+    padding-bottom: 3.5rem;
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
 }
 
 .calendar-detail .comment .cap .ic_comment{
@@ -296,89 +337,126 @@
 }
 
 .calendar-detail .comment .cap .ic_comment img, .calendar-detail .comment .form-control-start img{
-    width: 49rem;
-    height: 41rem;
+    width: 4.9rem;
+    height: 4.1rem;
 }
 .calendar-detail .comment .cap .ic_comment span{
-    padding-left: 10rem;
+    padding-left: 1rem;
 }
 
 .calendar-detail .comment .form-control-start {
     position: absolute;
-    left: 40rem;
+    left: 4rem;
     z-index: 2;
     display: block;
-    width: 34rem;
-    height: 34rem;
-    line-height: 34rem;
+    width: 3.4rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
     text-align: center;
     pointer-events: none;
-    top: 15rem;
+    top: 1.5rem;
 }
 
 
 .calendar-detail .comment .form-control-feedback{
-    top:15rem;
-    right: 40rem;
+    top:1.5rem;
+    right: 4rem;
 }
 .calendar-detail .comment .form-control-feedback img{
 
 }
 .calendar-detail .comment .form-control{
-    height: 66rem;
-    border-radius: 50rem;
-    padding: 0 95rem;
-    font-size: 28rem;
+    height: 6.6rem;
+    border-radius: 5rem;
+    padding: 0 9.5rem;
+    font-size: 2.8rem;
     color:#444444;
     background-color: #eaeaea;
 }
 
 .calendar-detail .comment .form-group{
-    font-size: 24rem;
+    font-size: 2.4rem;
     color:#444444;
-    padding: 70rem 0 50rem 0;
+    padding: 7rem 0 5rem 0;
 }
 
 .calendar-detail .comment .user {
-    margin-top: 30rem;
+    margin-top: 3rem;
 }
 .calendar-detail .comment .user img{
-    width: 72rem;
-    height: 72rem;
+    width: 7.2rem;
+    height: 7.2rem;
 }
 .calendar-detail .comment .user .comment_item{
-    padding: 25rem 34rem 34rem 34rem;
-    border: 2rem solid #dddddd;
-    border-radius: 25rem;
+    padding: 2.5rem 3.4rem 3.4rem 3.4rem;
+    border: 0.2rem solid #dddddd;
+    border-radius: 2.5rem;
 }
+.calendar-detail .comment .user .comment_item .ic_reply{
+    padding-top: 2.3rem;
+    text-align: right;
+}
+.calendar-detail .comment .user .comment_item .ic_reply img{
+    width: 14.5rem;
+    height: 3rem;
 
+}
 .calendar-detail .comment .user .comment_item .name{
-    font-size: 26rem;
+    font-size: 2.6rem;
     color: #444444;
+}
+.calendar-detail .comment .user .comment_item .name span{
+    font-size: 2.2rem;
+    color: #bbbbbb;
+    padding-left: 2.2rem;
 }
 
 .calendar-detail .comment .user .comment_item .date{
-    font-size: 22rem;
+    font-size: 2.2rem;
     color: #999999;
     text-align: right;
 }
 
 .calendar-detail .comment .user .comment_item .content{
-    font-size: 28rem;
+    font-size: 2.8rem;
     color: #555555;
-    padding-top: 33rem;
+    padding-top: 3.3rem;
     text-align: justify;
 }
 
 .calendar-detail .comment .more2{
     text-align: center;
-    padding-top: 50rem;
+    padding-top: 5rem;
+}
+.calendar-detail .comment .search{
+    padding-top: 4.5rem;
+    position: relative;
+}
+.calendar-detail .comment .ic_comment{
+    position: absolute;
+    right: 0;
+}
+.calendar-detail .comment .search .ic_comment{
+    position: absolute;
+    left: 2rem;
+    bottom: 1.5rem;
+    width: 4.9rem;
+    height: 4.1rem;
+}
+.calendar-detail .comment .ic_delete{
+    position: absolute;
+    right: 2rem;
+    bottom: 1.6rem;
+    height: 3.4rem;
+    width: 3.4rem;
 }
 
+
+
 .calendar-detail .prince_icon{
-    font-size: 34rem;
-    padding: 25rem 0;
-    border-top: 1rem solid #e9e9e9;
+    font-size: 3.4rem;
+    padding-top: 2.5rem;
+    border-top: 0.1rem solid #e9e9e9;
 }
 
 .calendar-detail .prince_icon .prince{
@@ -394,31 +472,41 @@
 
 .calendar-detail .cv_bnt_l{
     text-align: center;
-    padding: 35rem 0;
+    padding: 3.5rem 0;
 }
 
 .calendar-detail .cv_bnt_l .button{
-    margin-top: 20rem;
-    font-size: 34rem;
+    font-size: 3.4rem;
     color: #fff;
-    height: 95rem;
-    width: 650rem;
-    border:none;
+    height: 9.5rem;
+    width: 65rem;
+    border: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: #57e7db;
-    border-radius: 50rem;
-    padding-top: 22rem;
-    display: inline-block;
+    background-image: linear-gradient(to right, #28cbd5 , #5debdc);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
+
+.calendar-detail .prince_icon .capTitle{
+    margin: 0 4rem;
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 2.5rem;
+}
+
 .calendar-detail .cv_bnt_l .button img{
-    height: 47rem;
-    width: 47rem;
+    height: 4.7rem;
+    width: 4.7rem;
 }
 
 .calendar-detail .cv_bnt_l .button span{
-    padding-right: 20rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
 }
 .calendar-detail .recommended .cap{
-    font-size: 30rem;
+    font-size: 3rem;
     color: #999999;
 }

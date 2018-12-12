@@ -1,0 +1,320 @@
+.calendar-detail-content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.calendar-detail-content .rbc-calendar{
+  height: 86rem;
+}
+
+.calendar-detail-content .custom-toolbar {
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 4rem;
+  padding-left: 3rem;
+}
+
+.calendar-detail-content .custom-toolbar .left-toolbar {
+  width: 9.5rem;
+}
+
+.calendar-detail-content .custom-toolbar .left-toolbar .date {
+  font-size: 2.6rem;
+  width: 4.8rem;
+  height: 4.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../../icons/ic_date_48px.png") no-repeat;
+  background-size: 4.8rem 4.7rem;
+}
+
+.calendar-detail-content .icon-switch-month {
+  height: 3.5rem;
+}
+
+.calendar-detail-content .custom-toolbar .center-toolbar {
+  flex: 1;
+  text-align: center;
+}
+
+.calendar-detail-content .custom-toolbar .center-toolbar .year {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #cccccc;
+  margin-right: 2rem;
+}
+
+.calendar-detail-content .custom-toolbar .center-toolbar .month {
+  font-size: 4.3rem;
+  color: #333333;
+}
+
+.calendar-detail-content .custom-toolbar .right-toolbar {
+  width: 10rem;
+  padding-bottom: 1.5rem;
+  text-align: right;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #666666;
+}
+
+.rbc-month-header {
+  height: 5.6rem;
+  line-height: 5.6rem;
+  font-size: 2.4rem;
+}
+
+.rbc-month-header .rbc-header {
+  color: #aaaaaa;
+  font-weight: normal;
+}
+
+.calendar-detail-content .rbc-month-row .rbc-row-content {
+  height: 100%;
+}
+
+.calendar-detail-content .rbc-month-row .rbc-row-content .rbc-row:first-child {
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.calendar-detail-content .rbc-date-cell  {
+  text-align: center;
+}
+
+.calendar-detail-content .rbc-off-range-bg {
+  background-color: #ffffff !important;
+}
+
+.calendar-detail-content .rbc-event {
+  text-align: center;
+  height: 2.6rem;
+  padding: 0;
+  border-radius: 0;
+  background-color: #ee8a3a;
+}
+
+.calendar-detail-content .rbc-date-cell .date {
+  font-size: 2.88rem;
+}
+
+.calendar-detail-content .rbc-day-bg {
+  background-color: #ffffff !important;
+}
+
+.calendar-detail-content .rbc-now .date  {
+  width: 4rem;
+  height: 4rem;
+  background-color: #00b1c3;
+  border-radius: 50%;
+  color: #ffffff !important;
+  font-weight: normal;
+}
+
+.calendar-detail-content .rbc-event-content {
+  font-size: 2.041rem;
+}
+
+.calendar-detail-content .rbc-row-content .rbc-date-cell:nth-child(6) a {
+  color: #00b1c3;
+}
+
+.calendar-detail-content .rbc-row-content .rbc-date-cell:nth-child(7) a {
+  color: #e14a56;
+}
+
+.calendar-detail-content .event-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  flex: 1;
+  border-bottom: 0.1rem solid #f2f2f2;
+}
+
+.calendar-detail-content .left-content {
+  width: 10rem;
+  text-align: center;
+}
+
+.calendar-detail-content .left-content .event-date {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.calendar-detail-content .left-content .event-day {
+  font-size: 2.8rem;
+  color: #cccccc;
+}
+
+.calendar-detail-content .right-content {
+  flex: 1;
+}
+
+.calendar-detail-content .step-item {
+  height: 10.5rem;
+  width: 60rem;
+  position: relative;
+  margin-bottom: 2.5rem;
+  left: 3.3rem;
+}
+
+.calendar-detail-content .step-circle {
+  position: absolute;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  top: 4.5rem;
+  left: -4rem;
+}
+
+.calendar-detail-content .step-line {
+  position: absolute;
+  z-index: -1;
+  width: 0.5rem;
+  height: 13rem;
+  background: #dddddd;
+  top: 5rem;
+  left: -3.5rem;
+}
+
+.calendar-detail-content .event-info {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  height: 100%;
+  font-size: 3.2rem;
+  align-items: center;
+}
+
+.calendar-detail-content .event-info .time {
+  width: 10rem;
+  text-align: center;
+  border-right: 0.2rem solid #ffffff;
+}
+
+.calendar-detail-content .event-info .event-content {
+  padding-left: 3rem;
+}
+
+.calendar-detail-content .add-schedule {
+  background: url("../../../../icons/btn.png") no-repeat;
+  background-size: 10rem 10rem;
+  height: 10rem;
+  width: 10rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  bottom: 10rem;
+  right: 2rem;
+}
+
+.calendar-detail-content .add-schedule .add-new-ic {
+  width: 4.6rem;
+  height: 4.7rem;
+}
+
+.calendar-detail-content .add-schedule .open-ic {
+  font-size: 7rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.calendar-detail-content .add-schedule .close-ic {
+  transform: rotate(45deg);
+  font-size: 7rem;
+  color: #ffffff;
+  margin-bottom: 0.8rem;
+  margin-left: 1.2rem;
+}
+
+.calendar-detail-content .pin-ic {
+  width: 2rem;
+  height: 3.1rem;
+  margin-right: 1rem;
+}
+
+.calendar-detail-content .add-schedule-modal {
+  position: fixed;
+  display: flex;
+  flex: 1 1;
+  width: 100vw;
+  align-items: flex-end;
+  bottom: 11.6rem;
+}
+
+.calendar-detail-content .dark-area {
+  position: fixed;
+  background: #333333;
+  opacity: 0.5;
+  width: 100vw;
+  height: 100vh;
+}
+
+.calendar-detail-content .add-schedule-modal-hide {
+  top: 100vh;
+}
+
+.calendar-detail-content .add-schedule-modal-show {
+  top: 0;
+  z-index: 100;
+}
+
+.calendar-detail-content .dark-area {
+  flex: 1;
+  opacity: 0.5;
+  background: #333333;
+}
+
+.calendar-detail-content .add-schedule-modal-hide .dark-area {
+  display: none;
+}
+
+.calendar-detail-content .main-modal {
+  height: 54rem;
+  width: 100vw;
+  padding-top: 10rem;
+  padding-left: 10.5rem;
+  padding-right: 10.5rem;
+  background: #ffffff;
+  z-index: 10;
+}
+
+.calendar-detail-content .add-schedule-modal-hide .main-modal {
+  height: 0;
+}
+
+.calendar-detail-content .add-schedule-button {
+  border: 0.15rem solid #28cbd5;
+  height: 9.2rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
+}
+
+.calendar-detail-content .add-schedule-button img {
+  width: 4.6rem;
+  height: 4.7rem;
+  margin-right: 1rem;
+}
+
+.calendar-detail-content .help {
+  text-align: center;
+}
+
+.calendar-detail-content .help img {
+  width: 4.8rem;
+  height: 4.8rem;
+  margin-right: 1rem;
+}
