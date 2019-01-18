@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.aeb57c6a.css",
   "main.css.map": "static/css/main.aeb57c6a.css.map",
-  "main.js": "static/js/main.7db60b59.js",
-  "main.js.map": "static/js/main.7db60b59.js.map",
+  "main.js": "static/js/main.2f9c67e0.js",
+  "main.js.map": "static/js/main.2f9c67e0.js.map",
   "static/media/MacOs(copy).png": "static/media/MacOs(copy).dff52937.png",
   "static/media/MacOs.png": "static/media/MacOs.dff52937.png",
   "static/media/arrow-left.png": "static/media/arrow-left.c1adf37b.png",
@@ -26,7 +26,6 @@
   "static/media/ic_icon2.png": "static/media/ic_icon2.01adb98b.png",
   "static/media/ic_icon3.png": "static/media/ic_icon3.14b3db9a.png",
   "static/media/ic_icon4.png": "static/media/ic_icon4.79f5300c.png",
-  "static/media/ic_like_active.png": "static/media/ic_like_active.d1622e57.png",
   "static/media/ic_menu.png": "static/media/ic_menu.1271737f.png",
   "static/media/ic_pin.png": "static/media/ic_pin.544173e3.png",
   "static/media/ic_pulic.png": "static/media/ic_pulic.ca186a4a.png",
